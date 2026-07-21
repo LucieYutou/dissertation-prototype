@@ -1,0 +1,67 @@
+IBM 1620-1:The IBM 1620 model II, installed in late 1964 in the Scott Lang building at the Observatory, The picture was taken by local photographer Alex Coupar on 2 June 1966. (Image: Alex Coupar see Dundee University Archives https://archives.dundee.ac.uk/ms-258);
+IBM 1620-2:Part of the IBM 1620 instruction summary – timings are in microseconds;
+IBM 1620-3:Indirect addressing – a useful feature of the 1620, specified by a negative address (indicated by flag bit set on rightmost digit of field);
+IBM 1620-4:Representation of the IBM 1620 console showing display lights and switches;
+IBM 1620-5:1The University's IBM 1620 Model II, as originally housed in the Observatory; the card reader/punch is in the centre and the line printer is to the far left; the three disk drives (and the main'core storage'memory unit) are outside the picture on the right;
+SPS:Punched card from a 1620 assembler language (SPS) program;
+Finlaggan: Finlaggan virtual reconstruction image;
+Professor D.W.N. Stibbs, Astronomy：portrait；
+Dr T.R. Carson: Portrait;
+jack cole: Portrait;
+The VAX780, 1982:The VAX780, 1982;
+The John Honey Coffee area (also known as the goldfish bowl):The back row of 5 includes Ron Morrison, 2nd from left, and Tony Davie, furthest right. The front row of 4 includes Norman Paterson, furthest right, who was Scientific Officer in the School for many years. 
+W. van der Poel: portrait;
+IBM 360-44:The last day of the IBM 360/44, 30 June 1980, with Director of the Computing Laboratory, Dr Robin Erskine;
+IBM 360-44-2:IBM 360/44 in Mathematics Institute computer room;
+Rows of personal computers in the Main Library: Rows of personal computers, situated in the main library to serve non-computer science students;
+The department LAN network:The department LAN network;
+Students in the Jack Cole Building using modern computing equipment: The closest student in the white t-shirt is Tom Dalton who started their undergraduate course in 2011 and then went on to do his PhD with Prof. Graham Kirby. This looks like a CS1002 class;
+Jack Cole Building under construction:Jack Cole Building under construction;
+Plaque commemorating the opening of the Jack Cole Building: Plaque commemorating the opening of the Jack Cole Building;
+Research Expertise Database Input and Output: Research Expertise Database Input and Output;
+The University's connection to JANET and the Internet:The University's connection to JANET and the Internet;
+Identity Management project diagram:Identity Management connections among systems such as Data Warehouse, LDAP, SITS, CHARM, eVision, Shibboleth, CAS, Active Directory, Library, access control and related services;
+Ron Morrison at Morrison Suite:Ron Morrison;
+MSc HCI teaching image: Shows students or teaching activity related to User Centred Interaction Design / prototyping;
+Interaction Lab opening: Interaction Lab opening;
+Ursula Martin DLS 2017: Ursula Martin;
+Jack Cole Building 20th anniversary: Jack Cole Building 20th anniversary;
+jack-cole-building:Jack Cole Building;
+DEC_GT40_terminal_with_FOCAL_program:DEC_GT40_terminal_with_FOCAL_program;
+Cromemco_System_Three:Cromemco_System_Three;
+Digital MINC computer:This is MINC – the Modular Instrument Computer; a special PDP-11 system with modules for analog and digital I/O and timing for use in a laboratory;
+DEC_VK100:DEC_VK100;
+ICL PERQ workstation:ICL PERQ workstation;
+BBC_Micro_Computer:BBC_Micro_Computer;
+NEC Spinwriter printer:NEC Spinwriter printer;
+DEC-TU78:The TU78 was an advanced big magnetic tape drive from DEC, which used 2400-inch 0.5-inch wide magnetic tape on a standard 10-1/2-inch reel;
+IBM_PC_XT:IBM_PC_XT;
+Apple_LaserWriter:Apple_LaserWriter;
+Zenith Z-159 personal computer:Zenith Z-159 personal computer;
+Epson SQ-2000 printer:Epson SQ-2000 printer;
+Amstrad_PC1512:Amstrad_PC1512;
+IBM_PS2_(R)_model_30:IBM_PS2_(R)_model_30;
+600px-A310:600px-A310;
+MicroVAX_II:MicroVAX_II;
+Apple_Macintosh_Plus:Apple_Macintosh_Plus;
+Apple_Laserwriter_II:Apple_Laserwriter_II;
+Sun Ultra 1 Creator :Sun Ultra 1 Creator ;
+exhibition: Treasures from Special Collections exhibition display image;
+Litlong: Litlong;
+Open vitual word: Open vitual word;
+Digital Heritage 2025 conference:Digital Heritage 2025 conference;
+observatory:observatory;
+ON-LINE RETRIEVAL IN THE UNIVERSITY LIBRARY:Online retrieval in the university;
+Humbul Gateway:Humbul Gateway;
+Ursula-Martin:Portait;
+rps:The Records of the Parliaments of Scotland online;
+
+
+
+
+
+
+
+
+
+
