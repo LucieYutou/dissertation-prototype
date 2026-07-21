@@ -874,12 +874,39 @@ function formatMediaDescription(
   }
 
   /*
-   * Specific wording corrections only.
-   * Other hyphens are kept unchanged.
+   * Remove the parenthetical archive
+   * attribution from the IBM 1620
+   * description shown in the drawer.
+   */
+  text = text.replace(
+    /\s*\(Image:\s*Alex Coupar see Dundee University Archives\s+https:\/\/archives\.dundee\.ac\.uk\/ms-258\)\s*/i,
+    " "
+  );
+
+  /*
+   * Replace only this specific
+   * hyphenated wording.
+   *
+   * Other hyphens remain unchanged.
+   */
+  text = text.replace(
+    /\bon-line\b/gi,
+    "Online"
+  );
+
+  text = text
+    .replace(/\s+/g, " ")
+    .trim();
+
+  /*
+   * Specific wording corrections.
    */
   const exactReplacements = {
     "jack-cole-building":
-      "Jack Cole Building"
+      "Jack Cole Building",
+
+    "online retrieval in the university library":
+      "Online retrieval in the university library"
   };
 
   const exactMatch =
@@ -890,11 +917,6 @@ function formatMediaDescription(
   if (exactMatch) {
     return exactMatch;
   }
-
-  text = text.replace(
-    /\bon-line\b/gi,
-    "Online"
-  );
 
   return capitaliseFirstLetter(
     text
@@ -1039,6 +1061,10 @@ function renderMedia(
     return "";
   }
 
+  /*
+   * The Stibbs record displays its
+   * image without a Description field.
+   */
   const hideDescriptions =
     item.id === "item_001";
 
@@ -1080,13 +1106,6 @@ function renderMedia(
                 >
               `;
 
-        /*
-         * item_001:
-         * Stibbs begins pressing for a
-         * University Computing Laboratory
-         *
-         * Its image description is hidden.
-         */
         const descriptionHTML =
           !hideDescriptions &&
           entry.description
@@ -1125,7 +1144,9 @@ function renderMedia(
                   <strong>Copyright note:</strong>
 
                   <span>
-                    ${escapeHTML(entry.simplifiedCopyright)}
+                    ${escapeHTML(
+                      entry.simplifiedCopyright
+                    )}
                   </span>
                 </span>
               `
