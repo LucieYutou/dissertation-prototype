@@ -20,7 +20,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Walter Stibbs argued that modern astronomy required substantial computing facilities and later pressed for a computing laboratory at the University.",
-    "whyItMatters": "This shows that the early computing initiative was strongly connected to astronomy and scientific computing needs.",
+    "whyItMatters": "The need for a local computing laboratory first emerged from the demands of astronomy and scientific research.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson"
@@ -53,7 +53,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "An ALGOL 60 compiler was obtained from Nancy University, but it was never made to work completely in the St Andrews IBM 1620 environment.",
-    "whyItMatters": "This is an example of external software transfer and practical difficulty in early programming environments.",
+    "whyItMatters": "The compiler’s failure at St Andrews reveals how difficult it was to transfer software between early computer systems.",
     "relatedPeople": [
       "item_006 Tony Davie"
     ],
@@ -75,14 +75,14 @@ const ITEMS = [
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Cole states that an early version of ELIZA was available, but does not give a precise date. Approximate date.",
     "title": "ELIZA",
-    "itemType": "software_system",
+    "itemType": "software_network_system",
     "themeTags": [
       "Research & Public Impact",
       "Technology",
       "Everyday Life in School"
     ],
-    "summary": "An early version of ELIZA was available during the early computing period described by Cole.",
-    "whyItMatters": "This may be useful as an early AI-related item, but the source gives only a brief mention.",
+    "summary": "Jack Cole’s account notes that an early version of ELIZA was available during this period.",
+    "whyItMatters": "Its presence records an early encounter with conversational AI at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -100,8 +100,8 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Year only. No exact event date is given in the source.",
-    "title": "IBM 1620 software environment: FORTRAN II-D and SPS",
-    "itemType": "software_system",
+    "title": "FORTRAN and SPS on the IBM 1620",
+    "itemType": "digital_resource",
     "themeTags": [
       "Build the School",
       "Technology",
@@ -109,7 +109,7 @@ const ITEMS = [
       "Research & Public Impact"
     ],
     "summary": "FORTRAN II-D compilers and the Symbolic Programming System were part of the IBM 1620 software environment used by the Computing Laboratory.",
-    "whyItMatters": "This shows that the early computing service depended not only on hardware but also on programming languages and software tools.",
+    "whyItMatters": "FORTRAN and SPS made the IBM 1620 a practical system for programming as well as calculation.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -141,16 +141,14 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "Tony Davie is mentioned in relation to early efforts to use the ALGOL compiler obtained from Nancy University.",
-    "whyItMatters": "Useful minor node for early programming-language history, but his exact role needs verification.",
+    "whyItMatters": "Davie’s recollection helps document the difficulties of adapting the Nancy ALGOL compiler to the IBM 1620.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
       "src_003",
       "src_001"
     ],
-    "media": [
-      "m_007"
-    ],
+    "media": [],
     "imageNote": "No verified image or media is linked.",
     "internalNote": "From prototype content dataset.xlsx sheet 'people'. Could support a small story about the difficulty of using the French ALGOL compiler. Supports his connection with the ALGOL compiler Evidence quote: despite valiant efforts from Mr Davie Original item ID: P005."
   },
@@ -172,7 +170,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "Walter Stibbs pushed for the establishment of a University Computing Laboratory and chaired the Senate Computer Committee advising on the computing service.",
-    "whyItMatters": "He connects astronomy, scientific computing needs, and the creation of local computing facilities at St Andrews.",
+    "whyItMatters": "Stibbs turned the computing needs of astronomy into a wider proposal for a University Computing Laboratory.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -204,7 +202,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "T. R. Carson worked with Stibbs and helped plan and manage the early Computing Laboratory and IBM 1620 service.",
-    "whyItMatters": "He links astronomy, technical planning, and the practical running of the first computer service.",
+    "whyItMatters": "Carson helped move the project from technical planning into the daily operation of the first computing service.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -227,7 +225,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Delivered in early October 1964; formal inauguration took place in December 1964; full-time service started on 4 January 1965; the machine later moved to the Mathematics Institute in December 1967 and remained in operation until the end of February 1970. No exact delivery date is given in the source.",
-    "title": "IBM 1620 Model II and the start of St Andrews computing service",
+    "title": "IBM 1620 Model II begins computing at St Andrews",
     "itemType": "equipment; event",
     "themeTags": [
       "Build the School",
@@ -237,8 +235,8 @@ const ITEMS = [
       "Firsts and Milestones",
       "Places and Institutions"
     ],
-    "summary": "The IBM 1620 Model II was St Andrews’ first local computer and the machine around which the University’s local computing service was established. It was first housed in the University Observatory / Scott Lang Building, supported the start of full-time Computing Laboratory service on 4 January 1965, later moved to the Mathematics Institute, and remained in operation until the end of February 1970.",
-    "whyItMatters": "This matters because it marks the move from dependence on external computing facilities to local computing provision at St Andrews.",
+    "summary": "The IBM 1620 Model II arrived in October 1964 and became St Andrews’ first local computer. It supported the University’s computing service from January 1965, first in the Observatory and later in the Mathematics Institute, until February 1970.",
+    "whyItMatters": "The IBM 1620 gave St Andrews its own local computing service for the first time.",
     "relatedPeople": [
       "item_008 T. R. Carson",
       "item_413 Sheila Hill"
@@ -304,7 +302,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Month only. No exact event date is given in the source.",
-    "title": "Formal inauguration ceremony for the Computing Laboratory",
+    "title": "Computing Laboratory formally opened",
     "itemType": "event",
     "themeTags": [
       "Build the School",
@@ -314,7 +312,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Principal Sir Malcolm Knox visited the Computing Laboratory in December 1964 for a brief ceremony of inauguration.",
-    "whyItMatters": "This matters because it marks a recorded milestone in the development of computing, teaching, research, or institutional identity at St Andrews.",
+    "whyItMatters": "The ceremony gave the new Computing Laboratory formal recognition within the University.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson"
@@ -368,14 +366,14 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "This is reported in 2011 but refers to the 1960s. It can be placed in the early period or kept here as a source-history item.",
-    "title": "IBM 1620 Model II photograph rediscovered",
+    "title": "Photograph of the IBM 1620 rediscovered",
     "itemType": "equipment",
     "themeTags": [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "A July 2011 Newsletter article reported a newly discovered photograph of the IBM 1620 Model II, St Andrews’ first computer, installed in late 1964 and used when the computing service began in January 1965.",
-    "whyItMatters": "This matters because it marks a recorded milestone in the development of computing, teaching, research, or institutional identity at St Andrews.",
+    "summary": "In 2011, the Newsletter reported the rediscovery of a photograph showing the IBM 1620 Model II used by the early computing service.",
+    "whyItMatters": "The rediscovered photograph provides a rare visual record of St Andrews’ first computer and its early working environment.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -406,7 +404,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Sheila Hill was the first computer operator for the IBM 1620 service at St Andrews.",
-    "whyItMatters": "This highlights the human labour behind the Computing Laboratory and gives a people-centred entry point.",
+    "whyItMatters": "Hill’s appointment records the skilled operational work required to keep the early service running.",
     "relatedPeople": [
       "item_413 Sheila Hill",
       "item_007 Walter Stibbs"
@@ -440,7 +438,7 @@ const ITEMS = [
       "Technology",
       "Everyday Life in School"
     ],
-    "summary": "Laboratory staff gave courses on programming in FORTRAN and SPS during the 1965–66 session, showing that early computing at St Andrews combined service provision with programming education.",
+    "summary": "During the 1965–66 session, Laboratory staff taught courses in FORTRAN and SPS alongside the computing service.",
     "whyItMatters": "The Computing Laboratory provided training as well as computing services, showing early teaching and user-support functions.",
     "relatedPeople": [],
     "relatedEquipment": [
@@ -473,7 +471,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The University of St Andrews Computing Laboratory began full-time normal operation on 4 January 1965.",
-    "whyItMatters": "This is a major milestone in the establishment of independent computing services at St Andrews.",
+    "whyItMatters": "From January 1965, computing became a regular University service rather than an experimental installation.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson",
@@ -513,7 +511,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "Sheila Hill was the first computer operator for the IBM 1620 service at St Andrews.",
-    "whyItMatters": "Her account reveals the labour, practical skill, and working conditions behind early computing services.",
+    "whyItMatters": "Hill’s account describes the practical knowledge and daily work needed to operate the first computing service.",
     "relatedPeople": [],
     "relatedEquipment": [
       "item_009 IBM 1620 Model II and the start of St Andrews computing service"
@@ -542,7 +540,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "David Wishart worked in the Computing Laboratory as a computer/punch operator and later programmer/computer operator, while also undertaking postgraduate research connected to CLUSTAN and numerical taxonomy.",
-    "whyItMatters": "Wishart connects operational computing work, postgraduate study, statistics, and early computational research at St Andrews.",
+    "whyItMatters": "Wishart’s career moved from operating the computer to using it for postgraduate research in statistics.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -606,7 +604,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "Jack Cole was appointed Director of the Computing Laboratory in October 1965.",
-    "whyItMatters": "He represents the transition from establishing a computing service to developing a more formal institutional computing presence.",
+    "whyItMatters": "Under Cole’s leadership, the Computing Laboratory developed as both a University service and an academic centre.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -640,7 +638,7 @@ const ITEMS = [
       "Research & Public Impact"
     ],
     "summary": "Postgraduate work in Computational Science began with the enrolment of the first two full-time MSc students in 1966.",
-    "whyItMatters": "This programme-level item captures the beginning of academic computing work alongside the Computing Laboratory service.",
+    "whyItMatters": "The first MSc students brought postgraduate teaching and research into the work of the Computing Laboratory.",
     "relatedPeople": [
       "item_017 David Wishart"
     ],
@@ -671,8 +669,8 @@ const ITEMS = [
       "Places and Institutions",
       "Techno..."
     ],
-    "summary": "In December 1967 the Computing Laboratory transferred from the University Observatory to a specially adapted room in the Mathematics Institute, which then housed the Laboratory during the next stage of computing service development.",
-    "whyItMatters": "This marks an important spatial and institutional change in the growth of computing at St Andrews.",
+    "summary": "In December 1967, the Computing Laboratory moved from the University Observatory to a specially adapted room in the Mathematics Institute.",
+    "whyItMatters": "The move gave the expanding Computing Laboratory a new dedicated base.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson"
@@ -706,7 +704,7 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "Cambridge appears in the current materials as an external computing reference point during the IBM 360/44 replacement discussion.",
+    "summary": "Cambridge was one of the external computing sites mentioned during discussions about replacing the IBM 360/44.",
     "whyItMatters": "Cambridge helps show that St Andrews computing was connected to a wider UK academic computing environment.",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -727,7 +725,7 @@ const ITEMS = [
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "SRC009 and SRC013 describe 44PS as part of the IBM 360/44 software environment",
     "title": "44PS",
-    "itemType": "software_system",
+    "itemType": "software_network_system",
     "themeTags": [
       "Equipment & Infrastructure",
       "Research & Public Impact",
@@ -760,7 +758,7 @@ const ITEMS = [
       "Teaching & Student Use",
       "Research & Public Impact"
     ],
-    "summary": "The lecture/seminar series began with Algol '68 by W. van der Poel in 1969 according to the DLS archive entry.",
+    "summary": "The Distinguished Lecture Series began in 1969 with W. van der Poel’s lecture on Algol ’68.",
     "whyItMatters": "The series brought external advanced computing research into St Andrews and supported students’ exposure to current developments.",
     "relatedPeople": [
       "item_414 Jack Cole"
@@ -787,13 +785,13 @@ const ITEMS = [
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "",
     "title": "RAX",
-    "itemType": "software_system",
+    "itemType": "software_network_system",
     "themeTags": [
       "Build the School",
       "Equipment & Infrastructure",
       "Humanities Computing"
     ],
-    "summary": "RAX was the IBM 360/44 time-sharing / remote access system used in the Computing Laboratory context.",
+    "summary": "RAX provided time-sharing and remote access on the IBM 360/44.",
     "whyItMatters": "RAX helps explain how users accessed computing resources before the VAX transition.",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -858,8 +856,8 @@ const ITEMS = [
       "People",
       "Places and Institutions"
     ],
-    "summary": "Robin Erskine was appointed Computer Manager shortly after the IBM 360/44 was installed and later appears as Director of the Computing Laboratory in the source caption for the IBM 360/44’s last day.",
-    "whyItMatters": "Erskine connects the IBM 360/44 period with later Computing Laboratory management.",
+    "summary": "Robin Erskine was appointed Computer Manager shortly after the IBM 360/44 was installed. A later source caption identifies him as Director of the Computing Laboratory.",
+    "whyItMatters": "His career links the installation of the IBM 360/44 with the later management of the Computing Laboratory.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -917,8 +915,8 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "Aberdeen appears in the current materials as an external computing site connected through remote access / terminal arrangements.",
-    "whyItMatters": "Aberdeen represents the continued need for external computing resources even as St Andrews upgraded local facilities.",
+    "summary": "Aberdeen was one of the external computing sites reached through remote-access and terminal arrangements.",
+    "whyItMatters": "St Andrews still relied on computing facilities in Aberdeen even while its own systems were being upgraded.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -948,7 +946,7 @@ const ITEMS = [
       "Firsts and Milestones"
     ],
     "summary": "The IBM 1620 was sold for £19,000 at the end of February 1970, and the money was used to purchase a Honeywell 316 front-end processor for the IBM 360/44. The Honeywell 316 controlled eight teletypes and performed other functions.",
-    "whyItMatters": "This matters because it shows how computing at St Andrews was connected with humanities materials, languages, texts, archives, and heritage.",
+    "whyItMatters": "Selling the IBM 1620 helped fund a new front-end processor, which expanded terminal access to the IBM 360/44.",
     "relatedPeople": [],
     "relatedEquipment": [
       "item_009 IBM 1620 Model II and the start of St Andrews computing service",
@@ -1014,7 +1012,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The first degree in Computer Science at St Andrews was awarded in 1971.",
-    "whyItMatters": "This marks the formal emergence of Computer Science as a degree-bearing subject at St Andrews.",
+    "whyItMatters": "It marks the point when Computer Science became a degree subject at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1041,7 +1039,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "David Turner joined St Andrews in 1972 and invented SASL during a programming language theory course.",
-    "whyItMatters": "Turner connects St Andrews to early functional programming language research and teaching.",
+    "whyItMatters": "Turner brought early functional programming research into teaching at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1069,7 +1067,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "The IBM 360/44 was transferred to the John Honey Building in mid-1972.",
-    "whyItMatters": "The John Honey Building became an important physical setting for computing infrastructure and department culture.",
+    "whyItMatters": "The move made the John Honey Building a new base for the University’s central computer.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1099,7 +1097,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "SASL was invented by David Turner after he joined St Andrews and was used for functional programming teaching.",
-    "whyItMatters": "This matters because it shows how computing at St Andrews was connected with humanities materials, languages, texts, archives, and heritage.",
+    "whyItMatters": "SASL grew out of teaching at St Andrews and later became part of the wider development of functional programming.",
     "relatedPeople": [
       "item_034 David Turner",
       "item_006 Tony Davie"
@@ -1126,7 +1124,7 @@ const ITEMS = [
     "themeTags": [
       "Technology"
     ],
-    "summary": "Early software services included GLIM, NAG Mark 4, ALGOL W graph plotting and Playtime, showing that software services were already part of the computing environment.",
+    "summary": "Early software services included GLIM, NAG Mark 4, ALGOL W graph plotting and Playtime.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1153,7 +1151,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "Remote job entry and data communications were already important topics in the Computing Laboratory, including Interdata RJE and remote access to external computing services.",
+    "summary": "The Computing Laboratory used Interdata remote job entry and provided remote access to external computing services.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1178,7 +1176,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The Texas Instruments ASR 733 cassette terminal appears in the 1975 Newsletter index as an early terminal and cassette-based input/output device.",
+    "summary": "The University had a Texas Instruments ASR 733 cassette terminal by 1975.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1203,7 +1201,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The Digital GT40 display appears in the 1975 Newsletter index as an early graphics display device.",
+    "summary": "A Digital GT40 formed part of the graphics equipment in use by 1975.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1224,7 +1222,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "The Chronological Report gives 1976 for Beetham’s association with the Computing Laboratory; Year only. No exact event date is given in the source.",
-    "title": "Collaboration with the arts and humanities",
+    "title": "Computing support expands into arts and humanities research",
     "itemType": "project",
     "themeTags": [
       "Build the School",
@@ -1233,7 +1231,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Chronological Report describes cooperation between the Computing Laboratory and arts/humanities researchers, including Mike Beetham helping researchers apply computing technology to their problems.",
-    "whyItMatters": "This collaboration expands the history beyond hardware and programming languages into humanities computing activity.",
+    "whyItMatters": "The collaboration brought computing methods into arts and humanities research at St Andrews.",
     "relatedPeople": [
       "item_414 Jack Cole",
       "item_042 Mike Beetham"
@@ -1262,8 +1260,8 @@ const ITEMS = [
       "Research & Public Impact",
       "People"
     ],
-    "summary": "According to the Chronological Report, Mike Beetham associated himself with the Computing Laboratory in 1976 and helped arts researchers understand how to apply computing technology to their research problems.",
-    "whyItMatters": "Supports Beetham’s reported association with the Computing Laboratory and the arts/humanities computing theme",
+    "summary": "In 1976, Mike Beetham worked with the Computing Laboratory to help arts researchers use computing in their research.",
+    "whyItMatters": "Beetham helped arts researchers find practical ways to use computing in their work.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1281,13 +1279,13 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "",
-    "title": "RAX text editing and character-code environment",
+    "title": "Text editing and character handling with RAX",
     "itemType": "event",
     "themeTags": [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "RAX included text editing, typewriter simulation and character-code-related functions, making it relevant to early text handling and encoding history.",
+    "summary": "RAX included text editing, typewriter simulation and character-code functions.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1306,12 +1304,12 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the 1976 Newsletter index.",
-    "title": "GHOST curve drawing and line-printer graphics",
+    "title": "Curve drawing and line-printer graphics with GHOST",
     "itemType": "software_system",
     "themeTags": [
       "Technology"
     ],
-    "summary": "GHOST was used for curve drawing and line-printer graphical output, representing early graphical output before later graphics packages such as GHOST-80, SURFACE-II and UNIRAS.",
+    "summary": "GHOST was used for curve drawing and graphical output on line printers..",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1336,7 +1334,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "A digitiser was purchased for the computer service, representing an early graphical input or data capture device.",
+    "summary": "A digitiser was purchased for the computer service as a graphical input device.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1361,7 +1359,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "FAMULUS appears as an information storage and retrieval package, making it relevant to the longer line from early retrieval software to later SAULCAT, COPAC and text-retrieval systems.",
+    "summary": "FAMULUS was listed as an information storage and retrieval package",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1413,7 +1411,7 @@ const ITEMS = [
     "themeTags": [
       "Technology"
     ],
-    "summary": "The Motorola M6800 cross-assembler appears in the 1978 Newsletter index, showing early microprocessor-related development tools.",
+    "summary": "A Motorola M6800 cross-assembler was available by 1978.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1441,7 +1439,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The 1978 Newsletter index includes “Computer aids to learning languages”, providing an early clue for computing entering language teaching.",
+    "summary": "Computers were beginning to be explored as tools for language teaching and learning.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1490,12 +1488,12 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "",
-    "title": "Graphics and mathematical software on external services",
+    "title": "Graphics and mathematical software accessed",
     "itemType": "software_system",
     "themeTags": [
       "Technology"
     ],
-    "summary": "The 1979 Newsletter index lists software such as GINO-F, GINOGRAF, SURFACE II, NAG, PAFEC, GENSTAT and SIMULA, showing the importance of graphics, mathematical and engineering software.",
+    "summary": "Software available in 1979 included GINO-F, GINOGRAF, SURFACE II, NAG, PAFEC, GENSTAT and SIMULA.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1522,7 +1520,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Ron Morrison is associated with S-algol and later PS-algol-related work at St Andrews.",
-    "whyItMatters": "Morrison is a key person for the School’s programming language research lineage.",
+    "whyItMatters": "His work on S-algol and PS-algol made him an important figure in programming-language research at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1552,7 +1550,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "S-algol was an ALGOL-family programming language associated with Ron Morrison’s programming language research at St Andrews.",
-    "whyItMatters": "S-algol is a central example of St Andrews programming language research before PS-algol and later persistence work.",
+    "whyItMatters": "S-algol became the basis for PS-algol and later work on persistent programming.",
     "relatedPeople": [
       "item_052 Ron Morrison",
       "item_414 Jack Cole",
@@ -1581,7 +1579,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "A Tektronix graphics terminal appears in the 1979 Newsletter index, representing early graphics hardware.",
+    "summary": "A Tektronix terminal provided graphical display facilities by 1979.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1648,7 +1646,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Chronological Report places this trend in the 1980s and 1990s; no exact date is supplied. Approximate date. No exact event date is given in the source.",
-    "title": "AI and expert systems research interest grows at St Andrews",
+    "title": "AI and expert systems research develops at St Andrews",
     "itemType": "event",
     "themeTags": [
       "Humanities Computing",
@@ -1657,7 +1655,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The report states that research interest in artificial intelligence, including expert systems and OCR-related systems, began to grow during the 1980s and 1990s.",
-    "whyItMatters": "Connects earlier ELIZA availability to broader AI research interest in the computing boom period.",
+    "whyItMatters": "The growth of expert systems and OCR expanded AI research at St Andrews beyond the earlier use of ELIZA.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1716,7 +1714,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "Computing facilities were increasingly used outside the laboratory and computational sciences, including by arts, humanities, medicine, biblical criticism and modern languages users.",
-    "whyItMatters": "Shows computing becoming a general research tool rather than a specialist computing-service resource.",
+    "whyItMatters": "Computing was now being used across the arts, humanities, medicine and languages, rather than only for scientific work.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1745,7 +1743,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The VAX 11/780 system replaced the IBM 360/44 during the 1980 changeover.",
-    "whyItMatters": "The VAX marks a major modernization of computing facilities at St Andrews after the IBM 360/44 period.",
+    "whyItMatters": "The VAX replaced the IBM 360/44 and began a new phase of central computing at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -1766,7 +1764,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "The April 1980 newsletter states that introductory VAX lectures and demonstrations were planned for 19–30 May 1980, the IBM 360/44 service ended on 30 June 1980, and full service on both VAX machines was planned from 1 September 1980. No single exact event date covers the whole changeover.",
-    "title": "Changeover from IBM 360/44 to VAX 11/780 system and user training",
+    "title": "Users prepare for the move from IBM 360/44 to VAX",
     "itemType": "event",
     "themeTags": [
       "Build the School",
@@ -1779,7 +1777,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "In 1980 the Computing Laboratory changed over from the IBM 360/44 to a Digital Equipment dual-processor VAX 11/780 system. The transition included introductory lectures and demonstrations on the VAX facilities, the termination of the IBM 360/44 service on 30 June, and later full courses on the VAX and its available languages.",
-    "whyItMatters": "The VAX changeover marks a major infrastructure transition and shows how technical upgrades were connected to user training and everyday support work.",
+    "whyItMatters": "The lectures and courses helped users adapt to the new VAX system.",
     "relatedPeople": [
       "item_028 Robin Erskine"
     ],
@@ -1846,7 +1844,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The IBM 360/44 was replaced during the 1980 changeover by Digital Equipment VAX systems, marking a major central-computing platform transition at St Andrews.",
+    "summary": "During the 1980 changeover, Digital Equipment VAX systems replaced the IBM 360/44.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1871,7 +1869,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "VAX acceptance trials marked the completion stage of the IBM 360/44 to VAX changeover.",
+    "summary": "Acceptance trials were carried out as the new VAX systems were brought into service.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1895,7 +1893,7 @@ const ITEMS = [
     "themeTags": [
       "Technology"
     ],
-    "summary": "GHOST-80 appeared as a graphical output system and became part of the early graphics and visualisation software line at St Andrews.",
+    "summary": "GHOST-80 was a graphical output system used at St Andrews.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1921,7 +1919,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "SRCnet appears in the 1980 Newsletter index as a research-network-related item.",
+    "summary": "SRCnet is listed in the 1980 Newsletter index.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -1949,7 +1947,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The DLS archive records a 1981 lecture on “Computer Typesetting with TeX”, connecting computing with scholarly text production and typesetting.",
+    "summary": "The 1981 Distinguished Lecture Series included a lecture on computer typesetting with TeX.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2033,8 +2031,8 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "St Andrews gained access to the Post Office packet switching network in August 1981, according to the existing material organisation data.",
-    "whyItMatters": "Shows remote academic computing access expanding before full modern networking.",
+    "summary": "St Andrews gained access to the Post Office packet-switching network in August 1981.",
+    "whyItMatters": "This gave St Andrews users access to remote computing services before the University joined JANET.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2053,14 +2051,14 @@ const ITEMS = [
     "datePrecision": "range",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date range reflects related newsletter index references from 1982 and 1986. No single exact event date covers the whole ecosystem.",
-    "title": "Early microcomputer, personal computing and office-software ecosystem",
+    "title": "Microcomputers and office software spread across the University",
     "itemType": "equipment",
     "themeTags": [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "Newsletter index references from the 1980s show the spread of microcomputers, personal computers and office-software tools, including Intertec Superbrain, SIRIUS microcomputer, Epson printer, PROM programmer, WordStar, CalcStar, DataStar, IBM PC/XT, Sinclair QL, Amstrad word processor, Wordwise Plus, Turbo Pascal and dBase III.",
-    "whyItMatters": "This captures the broader shift from central systems towards smaller personal and office-oriented computing tools.",
+    "summary": "During the 1980s, a growing range of microcomputers and office programs entered use across the University, including the Intertec Superbrain, IBM PC/XT, Sinclair QL, WordStar, Turbo Pascal and dBase III.",
+    "whyItMatters": "Microcomputers and office software brought computing closer to individual users and everyday work.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2112,7 +2110,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The GIGI colour graphics terminal and Benson electrostatic plotter appear in the 1982 Newsletter index, showing the expansion of graphics terminal and plotting output equipment.",
+    "summary": "The GIGI colour terminal and Benson electrostatic plotter added new options for displaying and producing graphics.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2137,7 +2135,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "The Oxford Concordance Package appeared in the 1982 Newsletter index and is relevant to literary and linguistic text analysis.",
+    "summary": "The Oxford Concordance Package supported the analysis of literary and linguistic texts.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2162,7 +2160,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The ICL PERQ appeared in the 1982 Newsletter index, including file transfer between PERQ and VAX. This shows movement from central systems toward workstation-based computing.",
+    "summary": "Files could be transferred between the ICL PERQ workstation and the central VAX system.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2215,7 +2213,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "The 1983 Newsletter index lists BBC Micro, Torch Disk System, EPROM programmer for BBC, IBM Displaywriter, Zenith microsystems and Microtext, showing diversification of microcomputer equipment.",
+    "summary": "The University’s growing microcomputer provision included BBC, Torch, IBM and Zenith systems.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2245,7 +2243,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The DLS archive records a 1983 lecture on Computer Algebra, connecting St Andrews’ lecture series with symbolic computation.",
+    "summary": "The 1983 Distinguished Lecture Series included a lecture on computer algebra.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2300,7 +2298,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "BBC Micro cassette data transfer to VAX appears in the 1984 Newsletter index, showing interaction between microcomputers and central VAX systems.",
+    "summary": "Data stored on BBC Micro cassettes could be transferred to the VAX.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2329,7 +2327,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The report states that by 1984 St Andrews had gained connectivity with JANET, enabling email, file transfer and remote access over the network.",
-    "whyItMatters": "Connects St Andrews to the wider UK academic networking infrastructure.",
+    "whyItMatters": "JANET connected St Andrews to the wider UK academic network and its shared services.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2355,7 +2353,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "A Library terminal cluster appears in the 1984 Newsletter index, connecting computing infrastructure with library access before later online catalogue systems such as SAULCAT.",
+    "summary": "A cluster of terminals brought access to computing facilities into the University Library.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2381,7 +2379,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "The NEC Spinwriter appears in the 1984 Newsletter index as a high-quality printing device.",
+    "summary": "The NEC Spinwriter offered higher-quality printed output than standard printers.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2459,7 +2457,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The 1985 Newsletter index lists Acorn computers, Apricot computers, Epson PX-8, IBM PC equipment, Sinclair QL terminal emulation and Stag EPROM programmer.",
+    "summary": "Microcomputer provision expanded in 1985 with equipment from Acorn, Apricot, Epson, IBM and Sinclair.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2509,7 +2507,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The 1985 Newsletter index records VAX processor upgrades, SAVA memory upgrade and user disk capacity upgrade, showing continued expansion of central computing capacity.",
+    "summary": "Upgrades to the VAX processors, SAVA memory and user disk space increased the capacity of the central service.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2663,7 +2661,7 @@ const ITEMS = [
     "themeTags": [
       "Technology"
     ],
-    "summary": "GHOST-80 was used with the Tektronix T4662 pen plotter, showing the link between graphics software and plotting hardware.",
+    "summary": "GHOST-80 produced output through the Tektronix T4662 pen plotter.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2695,7 +2693,7 @@ const ITEMS = [
       "Teaching & Student Use"
     ],
     "summary": "The Computing Laboratory purchased an Apple Desktop Publishing System consisting of a Macintosh Plus, LaserWriter Plus, Macintosh 800K External Drive and Macintosh Hard Disk 20.",
-    "whyItMatters": "This marks the Computing Laboratory’s adoption of Macintosh-based desktop publishing, high-quality printing and more graphical, user-facing forms of computing.",
+    "whyItMatters": "The system introduced graphical desktop publishing and high-quality laser printing to the Computing Laboratory.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2715,7 +2713,7 @@ const ITEMS = [
     "datePrecision": "range",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date range is based on the February and April 1987 newsletter reports on the planned Zenith classroom and the January 1988 workshop schedule. No exact opening date is given in the sources.",
-    "title": "Old Union / North Street PC classroom with networked Zenith workstations",
+    "title": "Networked Zenith PCs in the North Street classroom",
     "itemType": "event; equipment",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -2807,7 +2805,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter reported a backup-program issue affecting the hard-disk version of the Amstrad PC1512 and mentioned corrected MS-DOS utilities.",
+    "summary": "A fault in the backup program affected the hard-disk version of the Amstrad PC1512. Corrected MS-DOS utilities were later provided.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -2881,7 +2879,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "The April 1987 newsletter reports a Computer Users Committee meeting held on 11 March 1987. Exact date. No exact event date is given in the source.",
-    "title": "CAMTEC controversy over Cambridge Ring / LAN performance",
+    "title": "CAMTEC controversy over Cambridge Ring",
     "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -2890,7 +2888,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Computer Users Committee discussed Cambridge Ring connection problems, unreliable CAMTEC software and an unsatisfactory relationship with CAMTEC, including concerns that CAMTEC was marketing Ethernet products while support for Cambridge Ring technology suffered.",
-    "whyItMatters": "This should be presented carefully as a documented committee discussion, not as a neutral judgement on the company.",
+    "whyItMatters": "The discussion records the technical and contractual problems the University faced when developing its local network.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2909,7 +2907,7 @@ const ITEMS = [
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the April 1987 newsletter issue naming Novell NetWare in the planned classroom network. No exact implementation date is given in the source.",
     "title": "Novell NetWare classroom network software",
-    "itemType": "software_system",
+    "itemType": "software_network_system",
     "themeTags": [
       "Equipment & Infrastructure",
       "Teaching & Student Use",
@@ -2917,7 +2915,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Novell Netware software was planned for the Old Union computer classroom network.",
-    "whyItMatters": "Part of the early networked-PC teaching infrastructure.",
+    "whyItMatters": "NetWare allowed classroom computers to share files, printers and other network resources.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -2963,7 +2961,7 @@ const ITEMS = [
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the May 1987 Newsletter.",
     "title": "IBM PS/2 and IBM 6150 demonstration",
-    "itemType": "equipment",
+    "itemType": "software_system; equipment; event",
     "themeTags": [
       "Equipment & Infrastructure",
       "Technology"
@@ -3125,7 +3123,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "A DEC MicroVAX II was installed to maintain a VAX/VMS service while the main SAVA system was upgraded, and DECnet connected machines including SAVA, SAVB, SAVC, STAR and CRAB.",
-    "whyItMatters": "This records the expansion of networked VAX systems and the practical infrastructure needed to keep computing services available during upgrades.",
+    "whyItMatters": "The MicroVAX and DECnet expansion increased network capacity while helping services continue during system upgrades..",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -3332,7 +3330,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The meeting connected multiple infrastructure issues including Cambridge Ring, IBM-compatible classrooms, Macintosh facilities, LaserWriter, JANET, GHOST-80 PostScript output and scanner needs.",
+    "summary": "The meeting covered Cambridge Ring, IBM-compatible classrooms, Macintosh facilities, LaserWriter access, JANET, GHOST-80 PostScript output and scanner requirements.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3378,7 +3376,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the December 1987 Newsletter.",
-    "title": "Computers and Teaching in the Humanities / CATH 88 planning",
+    "title": "Planning for Computers and Teaching in the Humanities",
     "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -3386,7 +3384,7 @@ const ITEMS = [
       "Teaching & Student Use",
       "Technology"
     ],
-    "summary": "The Newsletter discussed Computers and Teaching in the Humanities, referring to CATH 87 and planning for CATH 88.",
+    "summary": "Planning for CATH 88 followed the Computers and Teaching in the Humanities event held in 1987.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3455,8 +3453,8 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Based on the 1988 LAN diagram reproduced in the report. Year only. No exact event date is given in the source. The diagram caption in Chronological Report gives 1988; no exact creation date is visible. Models are visible in the diagram reproduced in Chronological Report p. 12.",
-    "title": "Department LAN and SUN Workstations network documented in 1988 diagram",
-    "itemType": "equipment; software_system",
+    "title": "The Departmental LAN and Sun Workstations",
+    "itemType": "event; equipment; system",
     "themeTags": [
       "Equipment & Infrastructure",
       "Research & Public Impact",
@@ -3519,7 +3517,7 @@ const ITEMS = [
       "Technology",
       "Everyday Life in School"
     ],
-    "summary": "MS-DOS was associated with the Zenith personal computers used in the Old Union PC Classroom and was the subject of introductory workshops.",
+    "summary": "Introductory MS-DOS and Microsoft Word workshops were held in the Old Union PC Classroom using Zenith personal computers.",
     "whyItMatters": "Confirms that the classroom was not just planned but actively used for practical software training.",
     "relatedPeople": [],
     "relatedEquipment": [
@@ -3548,7 +3546,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "A new archive system was in use and was planned to integrate the new archive system, annual forced archive tapes and the older user-controlled archive.",
+    "summary": "A new archive system was in use, with plans to integrate Archive-2000, annual forced archive tapes and the older user-controlled archive.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3560,6 +3558,31 @@ const ITEMS = [
     "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Useful for storage and file-preservation history. Original item ID: item_091."
   },
   {
+    "id": "item_134",
+    "date": "1988-02",
+    "displayDate": "February 1988",
+    "sortDate": "1988-02-01",
+    "datePrecision": "month",
+    "publicDateNote": "No exact date is given in the source.",
+    "dateNote": "",
+    "title": "UNIRAS site licence",
+    "itemType": "software_system",
+    "themeTags": [
+      "Research & Public Impact",
+      "Technology"
+    ],
+    "summary": "St Andrews adopted UNIRAS site licences covering VAX/VMS and IBM PC/AT versions.",
+    "whyItMatters": "",
+    "relatedPeople": [],
+    "relatedEquipment": [],
+    "sources": [
+      "src_079"
+    ],
+    "media": [],
+    "imageNote": "No verified image or media is linked.",
+    "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Important for graphics and visualisation software infrastructure. Original item ID: item_093."
+  },
+  {
     "id": "item_135",
     "date": "1988-03-09",
     "displayDate": "9 March 1988",
@@ -3568,7 +3591,7 @@ const ITEMS = [
     "publicDateNote": "",
     "dateNote": "Exact date is given in the Newsletter. Strong DTP, scanning and cross-platform equipment item.",
     "title": "Scotsys Macintosh demonstration",
-    "itemType": "equipment; event",
+    "itemType": "software_system",
     "themeTags": [
       "Technology"
     ],
@@ -3594,7 +3617,7 @@ const ITEMS = [
     "publicDateNote": "",
     "dateNote": "Exact demonstration date is given in the Newsletter.",
     "title": "IBM personal computer range demonstration",
-    "itemType": "equipment; event",
+    "itemType": "software_system",
     "themeTags": [
       "Equipment & Infrastructure",
       "Technology"
@@ -3646,7 +3669,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the June 1988 newsletter issue. No exact event date is given in the source.",
-    "title": "Department of Mediaeval History Arabic text / CLUSTAN analysis project",
+    "title": "CLUSTAN Analysis of an Arabic Historical Text",
     "itemType": "research_project",
     "themeTags": [
       "Humanities Computing",
@@ -3656,7 +3679,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "The Department of Mediaeval History used CLUSTAN to analyse a large Arabic document relating to Baghdad, linking historical research, text analysis and computing methods.",
-    "whyItMatters": "This is a strong example of humanities research using computing tools before the later language of digital humanities became common.",
+    "whyItMatters": "The project shows how historians were already using computing to analyse large texts in the 1980s.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -3711,7 +3734,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "A selection of well-known confectionery brands became available from the Computing Laboratory secretary at below recommended retail prices.",
-    "whyItMatters": "Small but vivid evidence of everyday department culture during the computing boom.",
+    "whyItMatters": "This small detail gives a glimpse of everyday life in the Computing Laboratory as the department grew.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -3729,7 +3752,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the November 1988 newsletter issue. No exact infection or clean-up date is given in the source.",
-    "title": "nVIR virus found on St Andrews Macintoshes and Vaccine protection used",
+    "title": "nVIR Virus Found on University Macintoshes",
     "itemType": "event",
     "themeTags": [
       "Build the School",
@@ -3738,7 +3761,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The nVIR virus was found on Macintosh 2 in the Computing Laboratory Cluster; some Macintosh Classroom system disks were contaminated, and system disks were protected with Vaccine.",
-    "whyItMatters": "An early local example of virus/security problems appearing with personal computers.",
+    "whyItMatters": "The incident was an early local example of the security problems that came with wider personal-computer use",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -3790,7 +3813,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter recorded serviceability statistics for SAVA, SAVB and SAVC, including maintenance, backup dumps and hardware faults.",
+    "summary": "Serviceability figures for SAVA, SAVB and SAVC covered maintenance periods, backup dumps and hardware faults during November and December 1988.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3800,6 +3823,32 @@ const ITEMS = [
     "media": [],
     "imageNote": "No verified image or media is linked.",
     "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Data refers to November–December 1988, reported in the January 1989 Newsletter. Original item ID: item_102."
+  },
+  {
+    "id": "item_144",
+    "date": "1988-12",
+    "displayDate": "December 1988",
+    "sortDate": "1988-12-01",
+    "datePrecision": "month",
+    "publicDateNote": "No exact date is given in the source.",
+    "dateNote": "",
+    "title": "VAX/VMS Version 5 delayed",
+    "itemType": "software_system",
+    "themeTags": [
+      "Equipment & Infrastructure",
+      "Research & Public Impact",
+      "Technology"
+    ],
+    "summary": "VAX/VMS Version 5 had been received but the service was expected to remain on VAX/VMS 4.7 until at least the Easter vacation in 1989.",
+    "whyItMatters": "",
+    "relatedPeople": [],
+    "relatedEquipment": [],
+    "sources": [
+      "src_080"
+    ],
+    "media": [],
+    "imageNote": "No verified image or media is linked.",
+    "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Useful as an operating-system transition item. Original item ID: item_098."
   },
   {
     "id": "item_145",
@@ -3815,7 +3864,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "The Newsletter described how to count words in Microsoft Word documents using WORDS.COM and ASCII export, with a connection to Modern History users.",
+    "summary": "Microsoft Word users could count words by saving a document as an ASCII file and running WORDS.COM. The method was used in Modern History.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3867,7 +3916,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter explained ARCHIVE-2000 restore queue place-holding files and warned users not to delete them accidentally.",
+    "summary": "ARCHIVE-2000 created temporary placeholder files for items waiting to be restored. Users were warned not to delete them.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -3946,7 +3995,7 @@ const ITEMS = [
       "Humanities Computing"
     ],
     "summary": "The NISS Bulletin Board was accessible over JANET, and the NISS Catalogue added improved functionality and sample records from the Oxford Text Archive.",
-    "whyItMatters": "This connects networked information services with humanities-oriented digital resources and early online discovery tools.",
+    "whyItMatters": "These services gave St Andrews users online access to catalogues, information and electronic texts held elsewhere.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -3971,7 +4020,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter explained problems with UUCP hosts and recommended use of the Rutherford EARN/BITNET gateway, while also introducing a MAILSHARE HELP file.",
+    "summary": "Problems with UUCP hosts encouraged users to use the Rutherford EARN/BITNET gateway instead. A MAILSHARE help file provided instructions.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -4015,7 +4064,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Time is taken from the February 1989 Newsletter; several future dates are mentioned.",
-    "title": "Replacement of computing facilities in 1990",
+    "title": "Replacement of computing facilities",
     "itemType": "event",
     "themeTags": [
       "Build the School",
@@ -4096,7 +4145,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The Newsletter included a sale notice for a BBC Model B with a 40-track disk drive, showing continued presence of BBC Micro-era equipment.",
+    "summary": "A BBC Model B computer with a 40-track disk drive was offered for sale.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -4232,7 +4281,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Dr Butler of the Department of Chemistry agreed to install a simplified Chinese font on Macintosh number 2, making the machine useful for non-English text support.",
-    "whyItMatters": "This is a concrete example of computing support for multilingual and non-Latin-script work at St Andrews.",
+    "whyItMatters": "The font made it possible to display and print simplified Chinese on a University Macintosh.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4282,7 +4331,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter introduced tools such as EARNHELP and ADDRESSTABLE to translate external email addresses into JANET gateway-compatible formats.",
+    "summary": "EARNHELP and ADDRESSTABLE converted external email addresses into formats that could pass through JANET gateways.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -4352,7 +4401,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Exact lecture date from the Distinguished Lecture Series record.",
-    "title": "DLS: Database Programming Languages open lecture course",
+    "title": "Distinguished Lecture Course on Database Programming Languages",
     "itemType": "teaching_curriculum",
     "themeTags": [
       "Humanities Computing",
@@ -4361,7 +4410,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Distinguished Lecture Series included the open lecture course “Database Programming Languages” on 11 April 1989.",
-    "whyItMatters": "This links the School’s public research lecture history with database programming language teaching and research.",
+    "whyItMatters": "The course made current research in database programming languages available to a wider University audience.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4436,7 +4485,7 @@ const ITEMS = [
       "Humanities Computing",
       "Technology"
     ],
-    "summary": "The Newsletter summarised electronic-publishing meetings covering Apple Macintosh, LaserWriter, PostScript, PageMaker, TeX, SGML, MS Word, Sun, IBM PC, Ethernet and hypertext.",
+    "summary": "Meetings on electronic publishing covered Macintosh and IBM PC systems, PostScript printing, PageMaker, TeX, SGML, Microsoft Word, Ethernet and hypertext.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -4593,7 +4642,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "A planned conference / workshop covered supercomputing, parallel processing, satellite imagery, expert systems, natural language processing, databases, information retrieval and networks for social-science research.",
-    "whyItMatters": "This matters because it documents the physical computing infrastructure that supported local computing service, teaching, research, or later digital work at St Andrews.",
+    "whyItMatters": "The course introduced social-science researchers to computing methods that could support their own research.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4618,8 +4667,8 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The chronological report notes that GIS was introduced and became useful across fields including archaeology, geology, ancient history and marine biology.",
-    "whyItMatters": "Shows spatial data tools moving into diverse research disciplines.",
+    "summary": "GIS was introduced for work in archaeology, geology, ancient history and marine biology.",
+    "whyItMatters": "GIS offered researchers in subjects such as archaeology, geology and marine biology new ways to work with spatial data.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4644,8 +4693,8 @@ const ITEMS = [
       "Technology",
       "People"
     ],
-    "summary": "Ursula Martin was Professor at the University of St Andrews from 1992 to 2002 and is connected to the official School history milestone of appointing the first female professor at the University since its founding.",
-    "whyItMatters": "She is a key figure for School history, women in computing, and the institutional development of Computer Science at St Andrews.",
+    "summary": "In 1992, Ursula Martin became the University of St Andrews’ first female professor. She remained Professor of Computer Science until 2002.",
+    "whyItMatters": "Martin’s appointment made her the University’s first female professor and placed her in a leading role in the development of Computer Science at St Andrews.",
     "relatedPeople": [
       "item_421 Ursula Martin"
     ],
@@ -4655,9 +4704,7 @@ const ITEMS = [
       "src_050",
       "src_054"
     ],
-    "media": [
-      "m_072"
-    ],
+    "media": [],
     "imageNote": "No verified image or media is linked.",
     "internalNote": "From prototype content dataset.xlsx sheet 'events'. A key appointment marks both Computer Science development and a University-wide milestone. Supports Ursula Martin’s St Andrews period and the official 1992 milestone. The School About page says first female professor since 1413; Ursula Martin’s Oxford profile says she was Professor at St Andrews from 1992 to 2002. Evidence quote: She was a Professor at the University of St Andrews (1992 - 2002). Original item ID: E051. From prototype content dataset.xlsx sheet 'people'. A former St Andrews professor returns in 2017 to speak on computer history and women’s often-ignored contributions. Supports Martin’s St Andrews professorship and the official 1992 milestone. Official School page describes the 1992 first-female-professor milestone; Oxford profile identifies Ursula Martin’s St Andrews professorship. Original item ID: P029. Merged from original items: item_194; item_195."
   },
@@ -4676,8 +4723,8 @@ const ITEMS = [
       "People",
       "Research & Public Impact"
     ],
-    "summary": "Ursula Martin was Professor at the University of St Andrews from 1992 to 2002 and is connected to the official School history milestone of appointing the first female professor at the University since its founding.",
-    "whyItMatters": "She is a key figure for School history, women in computing, and the institutional development of Computer Science at St Andrews.",
+    "summary": "Ursula Martin was Professor of Computer Science at St Andrews from 1992 to 2002 and was the University’s first female professor.",
+    "whyItMatters": "Martin’s appointment was significant for both the development of Computer Science and the history of women academics at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4686,8 +4733,7 @@ const ITEMS = [
       "src_054"
     ],
     "media": [
-      "m_023",
-      "m_072"
+      "m_023"
     ],
     "imageNote": "No verified image or media is linked.",
     "internalNote": "Added from prototype people P029; related to item_179 and item_339."
@@ -4738,7 +4784,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Computing Laboratory was merged with Management Information Services to create Information Technology Services.",
-    "whyItMatters": "Institutionalises the move from a computing laboratory model to a broader IT-services model.",
+    "whyItMatters": "The merger created a broader University service covering both academic computing and administrative information systems.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4768,7 +4814,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "JANET-CERT circulated a warning after copyright material appeared on a university web server; the case involved more than a hundred newspapers and magazines and referenced monitoring by organisations including the Federation Against Software Theft and the Software Publishers Association.",
-    "whyItMatters": "This records an early web-governance issue around copyright, university information servers and acceptable digital publishing practice.",
+    "whyItMatters": "The incident showed that publishing on University web servers also required rules on copyright and responsible use.",
     "relatedPeople": [
       "item_430 Dennis Jackson"
     ],
@@ -4895,7 +4941,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Ingres DBMS was upgraded to version 6.4/05, while Ingres/Net and Impromptu supported database access across IT Services’ distributed UNIX village server model.",
-    "whyItMatters": "This shows how database infrastructure developed alongside networked service provision.",
+    "whyItMatters": "The upgrade allowed databases to be accessed across the University’s growing UNIX network.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4922,7 +4968,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "A serious offensive email incident reached forty-nine members of the University, prompting advice about junk mail and restraint in responding.",
-    "whyItMatters": "Shows that email connectivity brought social and moderation problems alongside communication benefits.",
+    "whyItMatters": "The incident made clear that wider email access also created new problems involving misuse and moderation.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -4976,7 +5022,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "The IT Services Newsletter discussed Year 2000 compliance and CHEST efforts to obtain supplier assurances that products complied with BSI Year 2000 conformity requirements.",
-    "whyItMatters": "Useful corrective to the idea that Y2K was simply overblown: preparation mattered.",
+    "whyItMatters": "The smooth transition depended on extensive checks and updates carried out before the year 2000.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -5109,7 +5155,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "IT Services published an obituary note for Professor Jack Cole, remembering him as Director of the Computing Laboratory from 1965 and as a formative figure in Computer Science at St Andrews.",
-    "whyItMatters": "Marks the loss of a founding figure in St Andrews computing history.",
+    "whyItMatters": "The report records the death of one of the leading figures in the early development of computing at St Andrews.",
     "relatedPeople": [
       "item_414 Jack Cole"
     ],
@@ -5396,7 +5442,7 @@ const ITEMS = [
       "Technology",
       "Research & Public Impact"
     ],
-    "summary": "The University selected new finance, student-record and HR/payroll/personnel systems running on UNIX platforms and using Oracle relational database management, marking a shift toward Oracle-backed administrative computing.",
+    "summary": "The University selected UNIX- and Oracle-based systems for finance, student records and payroll and personnel administration.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -5600,7 +5646,7 @@ const ITEMS = [
     "datePrecision": "range",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "The School moved into the purpose-built Jack Cole Building in 2004, and the Jack Cole Building and The Gateway were officially opened on 18 March 2005. The wider building project developed across 2002–2005.",
-    "title": "Jack Cole Building opened on the North Haugh",
+    "title": "Jack Cole Building and The Gateway opened on the North Haugh",
     "itemType": "place_or_organisation",
     "themeTags": [
       "Build the School",
@@ -5614,7 +5660,7 @@ const ITEMS = [
       "Humanities Computing",
       "Local to Global"
     ],
-    "summary": "The Jack Cole Building developed from plans for a new Computer Science building on the North Haugh, the School moved into the purpose-built building in 2004, and the Jack Cole Building was officially opened on 18 March 2005 by First Minister Jack McConnell alongside The Gateway, the adjacent School of Management building.",
+    "summary": "The School moved into the new Jack Cole Building on the North Haugh in 2004. It was officially opened on 18 March 2005 by First Minister Jack McConnell, alongside the adjacent Gateway building.",
     "whyItMatters": "",
     "relatedPeople": [
       "item_052 Ron Morrison",
@@ -5651,7 +5697,7 @@ const ITEMS = [
     "datePrecision": "range",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date range reflects the database starting in November 2002 and continuing as an online research information project in later newsletter references. No single exact event date is given in the source.",
-    "title": "Research Expertise Database and online project",
+    "title": "Development of the Online Research Expertise Database",
     "itemType": "digital_resource",
     "themeTags": [
       "Research & Public Impact",
@@ -5660,8 +5706,8 @@ const ITEMS = [
       "People",
       "Places and Institutions"
     ],
-    "summary": "The Research Expertise database started life in November 2002 and was developed by Anna Clements in her role as Database Coordinator, with Business Improvements staff including Hamish Lawson and Anna Clements working on the project.",
-    "whyItMatters": "This shows the University using database and web infrastructure to organise research expertise, skills, publications and RAE-related information.",
+    "summary": "Anna Clements began developing the Research Expertise database in November 2002, with support from Business Improvements staff including Hamish Lawson.",
+    "whyItMatters": "The database brought information about researchers, expertise and publications together in one place, reducing the need to collect the same information repeatedly.",
     "relatedPeople": [
       "item_416 Hamish Lawson",
       "item_429 Anna Clements",
@@ -5726,7 +5772,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The University unveiled plans for a new two-storey Computer Science building on the North Haugh.",
-    "whyItMatters": "Places the later Jack Cole Building within expansion of Computer Science teaching and research facilities.",
+    "whyItMatters": "The plans responded to the School’s growth and prepared the way for a purpose-built teaching and research building.",
     "relatedPeople": [
       "item_052 Ron Morrison"
     ],
@@ -5774,7 +5820,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "The source says remaining NT4 classrooms would be upgraded in summer 2003; no exact implementation date is given. Date certainty: season_only No exact event date is given in the source. The article says the remaining Windows NT4 classrooms would be upgraded “this summer”; this is a planned upgrade period, not an exact event date. Date certainty: season_only",
-    "title": "Windows NT4 classroom build replaced by Windows 2000 classroom build",
+    "title": "University classroom computers upgraded to Windows 2000",
     "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -5784,7 +5830,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "Remaining Windows NT4 based classrooms were to be upgraded to the Windows 2000 classroom build developed the previous summer.",
-    "whyItMatters": "Shows managed desktop infrastructure becoming more standard and maintainable.",
+    "whyItMatters": "The upgrade replaced the older NT4 system and gave University classrooms a more current computing environment.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -5811,7 +5857,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "PXENADS allowed classroom PCs to boot onto the network and be reinstalled or wiped without visiting each machine with physical media.",
-    "whyItMatters": "Shows classroom maintenance becoming automated and network based.",
+    "whyItMatters": "PXENADS allowed classroom computers to be reinstalled and maintained through the network, without working on each machine individually.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -5887,7 +5933,7 @@ const ITEMS = [
       "Equipment & Infrastructure",
       "Technology"
     ],
-    "summary": "The Newsletter reported the requirements analysis stage for SuperJANET 5, with FaTMAN and the University expected to provide feedback.",
+    "summary": "SuperJANET 5 entered its requirements-analysis stage, and FaTMAN and the University were invited to provide feedback.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -6069,8 +6115,8 @@ const ITEMS = [
       "Everyday Life in School",
       "Humanities Computing"
     ],
-    "summary": "The newsletter explained how VPN could give off-campus broadband users a St Andrews IP address for mail, web cache and licensed Library resources.",
-    "whyItMatters": "Shows early institutional support for remote work before it became routine.",
+    "summary": "The VPN gave people working away from St Andrews secure access to University email, licensed Library resources and other restricted services.",
+    "whyItMatters": "The VPN allowed staff and students to use restricted University services while working away from campus.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -6167,7 +6213,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the March 2005 newsletter article. No exact event date is given in the source.",
-    "title": "e-Science / EGEE discussion with science and arts perspectives",
+    "title": "e-Science and EGEE Across Science and the Arts",
     "itemType": "event",
     "themeTags": [
       "Humanities Computing",
@@ -6179,7 +6225,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "The newsletter introduced grid computing, e-Science and the EGEE project, including a European e-Science perspective from Guy Warner at the National e-Science Centre and an arts-subject perspective from William Kilbride of AHDS Archaeology, University of York.",
-    "whyItMatters": "This shows how e-Science was framed across both scientific and arts/humanities computing contexts.",
+    "whyItMatters": "The discussion presented large-scale digital infrastructure as useful to arts and humanities research as well as science.",
     "relatedPeople": [
       "item_419 Guy Warner",
       "item_420 William Kilbride"
@@ -6262,8 +6308,8 @@ const ITEMS = [
       "Local to Global",
       "Places and Institutions"
     ],
-    "summary": "The ePrints initiative, led by Jeremy Upton and Janet Aucock in the University Library, related to research information infrastructure and online access to research outputs.",
-    "whyItMatters": "This connects library-led digital infrastructure with the wider development of research information systems and scholarly communication.",
+    "summary": "Jeremy Upton and Janet Aucock led the University Library’s ePrints initiative to provide online access to research outputs.",
+    "whyItMatters": "ePrints made University research outputs easier to store, manage and access online.",
     "relatedPeople": [
       "item_417 Jeremy Upton",
       "item_418 Janet Aucock"
@@ -6397,7 +6443,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter discussed e-Science for Arts research, including large digital images, sound and video files, data grids, access grids and computational grids.",
+    "summary": "e-Science infrastructure offered arts researchers ways to work with large image, audio and video files, distributed data and remote computing resources.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -6426,7 +6472,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "The S51 ThinkCentre had a Pentium 3.2 GHz processor, 1 GB memory, 80 GB disk and CD-writer/DVD-reader combo device.",
-    "whyItMatters": "The specification shows modern PCs becoming familiar, standardised classroom and public-area equipment.",
+    "whyItMatters": "Using one standard model made it easier to provide and support computers across classrooms and public areas.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -6503,7 +6549,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "IT Services planned a mechanism to help Arts projects create image databases for research and teaching, with attention to AHDS Visual Arts, copyright and systematic storage and retrieval.",
+    "summary": "IT Services planned support for Arts projects to create image databases for research and teaching, including guidance on copyright, storage and retrieval.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -6661,7 +6707,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "IT Services published guidance on mobile phones and smartphones for email, calendars, web access, Meeting Maker and NotifyLink.",
-    "whyItMatters": "Shows mobile computing moving into institutional support and policy.",
+    "whyItMatters": "The review helped the University decide how smartphones should be supported and used securely for work.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -6679,7 +6725,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the January 2008 Newsletter. Strong teaching-equipment and language-learning item.",
-    "title": "Computer classroom developments",
+    "title": "Expansion and Upgrading of Computer Classrooms",
     "itemType": "software_system",
     "themeTags": [
       "Humanities Computing",
@@ -6719,9 +6765,7 @@ const ITEMS = [
     "sources": [
       "src_143"
     ],
-    "media": [
-      "m_073"
-    ],
+    "media": [],
     "imageNote": "No verified image or media is linked.",
     "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Event not given with a specific launch day; time is taken from the March 2008 Newsletter. Very strong history / non-English text / digital humanities item. Original item ID: item_197."
   },
@@ -6740,7 +6784,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The Newsletter discussed Second Life as a possible educational medium, but noted difficulties with firewall, wireless / ResNet access and client updates.",
+    "summary": "Second Life was considered as a possible teaching environment, although network restrictions and frequent software updates made it difficult to use.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -6862,7 +6906,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the September 2008 Newsletter.",
-    "title": "Personalised web-based dashboard",
+    "title": "Development of a Personalised University Web Dashboard",
     "itemType": "project",
     "themeTags": [
       "Teaching & Student Use",
@@ -6916,7 +6960,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the December 2008 Newsletter.",
-    "title": "Administrative Systems Project and Elgg",
+    "title": "Elgg and the Administrative Systems Project",
     "itemType": "software_system",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -6942,7 +6986,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "",
-    "title": "Newsletter reaches 35 years",
+    "title": "IT Services Newsletter Marks Its 35th Year",
     "itemType": "software_system",
     "themeTags": [
       "Research & Public Impact",
@@ -7076,8 +7120,8 @@ const ITEMS = [
       "Technology",
       "Everyday Life in School"
     ],
-    "summary": "The February 2009 newsletter includes a five-day workshop on Web 2.0 for e-Research.",
-    "whyItMatters": "Shows staff/researcher training in emerging web tools.",
+    "summary": "A five-day workshop introduced researchers to Web 2.0 tools for online research and collaboration.",
+    "whyItMatters": "The workshop helped researchers explore new online tools for sharing information and working together.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -7095,7 +7139,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the February 2009 newsletter issue. No exact connection date is recorded in this row.",
-    "title": "University connection to JANET and Internet / FaTMAN",
+    "title": "University connection to JANET and Internet",
     "itemType": "system",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -7103,8 +7147,8 @@ const ITEMS = [
       "Local to Global",
       "Technology"
     ],
-    "summary": "The February 2009 newsletter diagram explained the University connection to JANET and the Internet through FaTMAN and related infrastructure.",
-    "whyItMatters": "Shows network connectivity as resilient, layered research infrastructure.",
+    "summary": "FaTMAN and related network infrastructure connected the University to JANET and the wider Internet.",
+    "whyItMatters": "The arrangement provided several network routes, helping the University remain connected if one route failed.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -7207,7 +7251,7 @@ const ITEMS = [
     "themeTags": [
       "Technology"
     ],
-    "summary": "The Newsletter warned about phishing and spear-phishing attacks targeting University IT accounts and credentials.",
+    "summary": "Staff and students were warned about phishing and spear-phishing attacks designed to steal University account details.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -7261,7 +7305,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "The IT training course “Writing wikis, blogs and RSS feeds with Confluence” was scheduled in the October 2009 newsletter.",
-    "whyItMatters": "Confluence was supported not only as software but through training.",
+    "whyItMatters": "The course helped staff use Confluence to create wikis, blogs and RSS feeds for sharing information online.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -7331,7 +7375,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Year only. No exact event date is given in the source.",
-    "title": "Web team Twitter, blog, Agile and Scrum working practices",
+    "title": "New Communication and Development Practices in the Web Team",
     "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -7339,7 +7383,7 @@ const ITEMS = [
       "Research & Public Impact"
     ],
     "summary": "The Web team used Twitter and a blog for communication and also adopted Agile and Scrum working practices to organise web development work.",
-    "whyItMatters": "This shows changes in both public communication and internal development methods within University web work.",
+    "whyItMatters": "The Web team adopted new ways to communicate with users and organise its development work.k.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -7357,7 +7401,7 @@ const ITEMS = [
     "datePrecision": "year",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Reported in October 2010; the migration happened during the summer. Strong teaching-platform item.",
-    "title": "WebCT to Moodle and MMS",
+    "title": "Transition from WebCT to Moodle and MMS",
     "itemType": "software_system",
     "themeTags": [
       "Teaching & Student Use",
@@ -7382,7 +7426,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Exact article/reporting date for the replacement is stated in the source.",
-    "title": "Identity Management replaces UserReg account-management functions",
+    "title": "Identity Management Begins Replacing UserReg",
     "itemType": "software_system",
     "themeTags": [
       "Firsts and Milestones",
@@ -7448,7 +7492,7 @@ const ITEMS = [
       "Research & Public Impact"
     ],
     "summary": "Students are shown using rows of Apple desktop computers in a Jack Cole Building teaching lab, likely for a CS1002 class.",
-    "whyItMatters": "Shows modern computing as a classroom experience rather than a specialist lab activity.",
+    "whyItMatters": "The photograph records the computers and teaching environment used by students in the Jack Cole Building.",
     "relatedPeople": [
       "item_410 Tom Dalton",
       "item_381 Graham Kirby"
@@ -7503,7 +7547,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The iSaint personalised web portal was extended toward staff use, integrating services such as Moodle, MMS, e-Vision, Library record, online exam papers and planned QlikView links.",
+    "summary": "The iSaint personalised web portal was expanded for staff, bringing together Moodle, MMS, e-Vision, Library records and online examination papers.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -7575,7 +7619,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from the February 2011 newsletter issue. No exact event date is given in the source.",
-    "title": "Digital audio and video storage, delivery and feedback project",
+    "title": "Digital Audio and Video for Teaching and Feedback",
     "itemType": "digital_resource",
     "themeTags": [
       "Teaching & Student Use",
@@ -7583,8 +7627,8 @@ const ITEMS = [
       "Technology",
       "Everyday Life in School"
     ],
-    "summary": "IT Services developed work around digital audio and video storage and delivery and asked research and teaching staff to provide information about academic uses of digital audio and video feedback.",
-    "whyItMatters": "This links media infrastructure with research, teaching and feedback practices.",
+    "summary": "IT Services explored ways to store and deliver digital audio and video and asked staff how these media were used in research, teaching and feedback.",
+    "whyItMatters": "The project addressed the growing use of audio and video in teaching, research and student feedback.",
     "relatedPeople": [
       "item_363 Birgit Plietzsch"
     ],
@@ -7604,7 +7648,7 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Event not given with a specific day; time is taken from the February 2011 Newsletter.",
-    "title": "Identity Management phase 2 planning",
+    "title": "Planning the Second Phase of Identity Management",
     "itemType": "software_system",
     "themeTags": [
       "Humanities Computing",
@@ -7662,7 +7706,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "BES was purchased alongside investment in the Unimail email and calendar system, enabling Blackberry devices to synchronise email and calendar information remotely.",
-    "whyItMatters": "Shows email and calendar convergence with smartphone access.",
+    "whyItMatters": "Connecting Unimail with Blackberry devices allowed staff to use University email and calendars while away from their computers.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -7862,14 +7906,14 @@ const ITEMS = [
     "datePrecision": "month",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "Date is from May 2011 newsletter issues. No exact event date is given in the sources.",
-    "title": "School websites migration and TerminalFour Site Manager 7.0 upgrade",
+    "title": "School Websites Move to the Upgraded TerminalFour System",
     "itemType": "event",
     "themeTags": [
       "Technology",
       "Equipment & Infrastructure"
     ],
     "summary": "School websites including Computer Science were being migrated into Site Manager, while the Web team planned an upgrade to TerminalFour Site Manager 7.0 to improve the user interface and media/content search.",
-    "whyItMatters": "This connects the migration of School websites with the wider development of the University’s enterprise web CMS.",
+    "whyItMatters": "The migration brought School websites into a shared University system and made their content easier to manage.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -8062,7 +8106,7 @@ const ITEMS = [
     "datePrecision": "range",
     "publicDateNote": "No exact date is given in the source.",
     "dateNote": "The Tumblr archive includes posts from 2012 and 2013. No single exact event date covers the blog.",
-    "title": "St Andrews University Computing Society Tumblr blog used for Hack Day posts",
+    "title": "Computing Society Hack Day Projects on Tumblr",
     "itemType": "digital_resource",
     "themeTags": [
       "Teaching & Student Use",
@@ -8073,7 +8117,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "St Andrews University Computing Society (StACS) used a Tumblr blog to post Hack Day and project updates.",
-    "whyItMatters": "This records student computing culture and informal digital communication around programming events and projects.",
+    "whyItMatters": "The blog records how students shared projects and organised computing activities outside formal teaching.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -8215,6 +8259,32 @@ const ITEMS = [
     "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Useful AI / knowledge representation item. Original item ID: item_248."
   },
   {
+    "id": "item_321",
+    "date": "2014-02-11",
+    "displayDate": "11 February 2014",
+    "sortDate": "2014-02-11",
+    "datePrecision": "day",
+    "publicDateNote": "",
+    "dateNote": "No exact event date is given in the source.",
+    "title": "Palimpsest: an Edinburgh Literary Cityscape",
+    "itemType": "project",
+    "themeTags": [
+      "Humanities Computing",
+      "Research & Public Impact",
+      "Technology"
+    ],
+    "summary": "The Palimpsest project, involving St Andrews researchers, used literary text data and visualisation to create a literary cityscape of Edinburgh.",
+    "whyItMatters": "",
+    "relatedPeople": [],
+    "relatedEquipment": [],
+    "sources": [
+      "src_170"
+    ],
+    "media": [],
+    "imageNote": "No verified image or media is linked.",
+    "internalNote": "From Digital Humanities and Key Equipment Source Notes.xlsx; original notes: Strong digital humanities / literary geography / visualisation item. Original item ID: item_249."
+  },
+  {
     "id": "item_322",
     "date": "2014-02-15",
     "displayDate": "15 February 2014",
@@ -8228,7 +8298,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Emeritus Professor and former Head of School Ron Morrison returned to officially open The Morrison Suite.",
-    "whyItMatters": "This is an internal School space and memory milestone, connecting present facilities with former School leadership.",
+    "whyItMatters": "Naming the suite after Ron Morrison recognised his contribution to the School and kept that connection visible in its everyday space.",
     "relatedPeople": [
       "item_052 Ron Morrison"
     ],
@@ -8250,7 +8320,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Date is the blog post date; it reports the new MSc in HCI as a recent programme addition. Date certainty: reported_date",
-    "title": "New MSc in Human Computer Interaction appears in MSc portfolio",
+    "title": "MSc in Human–Computer Interaction Introduced",
     "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
@@ -8259,7 +8329,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The School’s MSc portfolio included a new MSc in Human Computer Interaction; CS5042 User Centred Interaction Design was described as a compulsory element delivered by Miguel Nacenta.",
-    "whyItMatters": "This marks expansion of the School’s teaching portfolio in HCI.",
+    "whyItMatters": "The new MSc established Human–Computer Interaction as a distinct area of postgraduate teaching at St Andrews.",
     "relatedPeople": [
       "item_397 Miguel Nacenta"
     ],
@@ -8282,7 +8352,7 @@ const ITEMS = [
     "publicDateNote": "",
     "dateNote": "Date can be written as lecture date / reported date.",
     "title": "DLS 2014: Luca Cardelli",
-    "itemType": "event;person",
+    "itemType": "event",
     "themeTags": [
       "Equipment & Infrastructure",
       "Teaching & Student Use",
@@ -8317,7 +8387,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Al Dearle officially opened the new Interaction Lab as Dean of Science.",
-    "whyItMatters": "He is important for the School’s modern research-space development.",
+    "whyItMatters": "Dearle’s involvement in opening the Interaction Lab reflects his role in the School’s research development.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -8335,7 +8405,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Date includes a reported date from the source; use the event date when explicitly given.",
-    "title": "LitLong Edinburgh launches from Palimpsest",
+    "title": "LitLong Edinburgh Launched from the Palimpsest Project",
     "itemType": "project",
     "themeTags": [
       "Humanities Computing",
@@ -8397,7 +8467,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "The new Interaction Lab in the John Honey Building was officially opened by Professor Al Dearle; it housed research talents from SACHI and Open Virtual Worlds.",
+    "summary": "Professor Al Dearle officially opened the Interaction Lab in the John Honey Building. The lab brought together researchers from SACHI and Open Virtual Worlds.",
     "whyItMatters": "",
     "relatedPeople": [
       "item_325 Al Dearle"
@@ -8695,7 +8765,7 @@ const ITEMS = [
       "Humanities Computing"
     ],
     "summary": "Ursula Martin delivered the Distinguished Lecture “What Every Computer Scientist Should Know About Computer History”, with the report context identifying School roles including DLS Coordinator Ian Gent, Principal and Vice-Chancellor Sally Mapstone and Head of School Simon Dobson.",
-    "whyItMatters": "This connects the School’s Distinguished Lecture Series with reflection on computer history and institutional memory.",
+    "whyItMatters": "The lecture encouraged students and staff to think about computing as a subject with its own history.",
     "relatedPeople": [
       "item_421 Ursula Martin",
       "item_422 Simon Dobson",
@@ -8812,7 +8882,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Aaron Quigley was Chair of HCI, co-founder of SACHI, and was appointed Director of SICSA in 2019.",
-    "whyItMatters": "He represents the School’s modern HCI identity and external leadership in Scottish computer science.",
+    "whyItMatters": "Quigley helped develop HCI research at St Andrews and later took on a wider leadership role in Scottish computing.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -8840,7 +8910,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Distinguished Lecture Series celebrated its 50th anniversary in 2019.",
-    "whyItMatters": "This marks the longevity of the School’s lecture tradition and academic culture.",
+    "whyItMatters": "The anniversary recognised fifty years of public lectures by leading figures in computing.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -8867,7 +8937,7 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "An MSc project used deep learning and computer vision to analyse ancient Roman coins, connecting computing with heritage, history and numismatics.",
+    "summary": "An MSc project used deep learning and computer vision to analyse ancient Roman coins.",
     "whyItMatters": "",
     "relatedPeople": [],
     "relatedEquipment": [],
@@ -8892,8 +8962,8 @@ const ITEMS = [
       "Research & Public Impact",
       "Technology"
     ],
-    "summary": "Professor Aaron Quigley was appointed as the new Director of SICSA; the post identifies him as Chair of HCI and co-founder of SACHI.",
-    "whyItMatters": "This shows the School’s external leadership role within the Scottish Informatics and Computer Science Alliance.",
+    "summary": "Aaron Quigley was appointed Director of SICSA in 2019. At the time, he was Chair of HCI and co-founder of SACHI.",
+    "whyItMatters": "The appointment placed a St Andrews professor in a leading role across Scottish computing research.",
     "relatedPeople": [
       "item_343 Aaron Quigley"
     ],
@@ -8913,7 +8983,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Date is from the 23 May 2019 Finlaggan reconstruction blog post.",
-    "title": "Open Virtual Worlds virtual reconstruction of Finlaggan",
+    "title": "Digital Reconstruction of Finlaggan by Open Virtual Worlds",
     "itemType": "research_project",
     "themeTags": [
       "Humanities Computing",
@@ -8922,8 +8992,8 @@ const ITEMS = [
       "Local to Global",
       "People"
     ],
-    "summary": "Open Virtual Worlds created a digital reconstruction of Finlaggan for the Museum of Islay Life. The project was led by Alan Miller and involved team contributions including historical research, drone footage, photogrammetry and digital modelling.",
-    "whyItMatters": "This connects Computer Science research impact, virtual reconstruction and public engagement with heritage interpretation.",
+    "summary": "Open Virtual Worlds created a digital reconstruction of Finlaggan for the Museum of Islay Life. Led by Alan Miller, the project combined historical research, drone footage, photogrammetry and digital modelling.",
+    "whyItMatters": "The project used digital reconstruction to present historical and archaeological research to museum visitors.",
     "relatedPeople": [
       "item_425 Sarah Kennedy",
       "item_426 CJ Davies",
@@ -8975,7 +9045,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "Date can be written as event date / reported date.",
-    "title": "DLS with Giovanna Di Marzo Serugendo",
+    "title": "Distinguished Lecture by Giovanna Di Marzo Serugendo",
     "itemType": "software_system",
     "themeTags": [
       "Teaching & Student Use",
@@ -9001,7 +9071,7 @@ const ITEMS = [
     "datePrecision": "day",
     "publicDateNote": "",
     "dateNote": "No exact event date is given in the source.",
-    "title": "Open Virtual Worlds Impact Innovation Funding",
+    "title": "Impact and Innovation Funding for Open Virtual Worlds",
     "itemType": "project",
     "themeTags": [
       "Humanities Computing",
@@ -9089,7 +9159,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The School celebrated the 20th anniversary of the official opening of the Jack Cole Building by Jack McConnell on 18 March 2005.",
-    "whyItMatters": "This is an institutional memory milestone linking current School identity back to the 2005 building opening.",
+    "whyItMatters": "The anniversary recorded the Jack Cole Building’s long-term importance as the School’s main teaching and research space.",
     "relatedPeople": [
       "item_415 Jack McConnell",
       "item_414 Jack Cole"
@@ -9230,7 +9300,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Stibbs and Carson had earlier experience with computing facilities connected to Aldermaston / UK Atomic Energy Authority.",
-    "whyItMatters": "This helps explain the external computing background of astronomy staff involved in early computing at St Andrews.",
+    "whyItMatters": "The connection helps explain the computing experience that Stibbs and Carson brought to the early plans at St Andrews.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson"
@@ -9259,8 +9329,8 @@ const ITEMS = [
       "Research & Public Impact",
       "People"
     ],
-    "summary": "“the Arts Server project with Birgit Plietzsch”",
-    "whyItMatters": "Plietzsch links arts digital infrastructure and later digital audio/video planning.",
+    "summary": "Birgit Plietzsch worked on the Arts Server project and was later involved in planning for digital audio and video feedback.",
+    "whyItMatters": "Plietzsch contributed to digital services for the arts and later to planning for the use of audio and video.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9287,8 +9357,8 @@ const ITEMS = [
       "People",
       "Places and Institutions"
     ],
-    "summary": "“During the double event, Mr McConnell met with University Principal Dr Brian Lang...”",
-    "whyItMatters": "Lang represents senior University leadership in the Jack Cole Building opening and investment narrative.",
+    "summary": "Brian Lang, then Principal and Vice-Chancellor, attended the official opening of the Jack Cole Building in 2005.",
+    "whyItMatters": "Lang’s involvement places the opening of the Jack Cole Building within the University’s wider investment in Computer Science.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9315,8 +9385,8 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "The April 1987 newsletter records Computing Users Committee concerns about CAMTEC support for Cambridge Ring technology and its move toward marketing Ethernet products.",
-    "whyItMatters": "Useful for showing vendor support problems in early networking.",
+    "summary": "The Computer Users Committee raised concerns about CAMTEC’s support for the Cambridge Ring as the company shifted its attention towards Ethernet products.",
+    "whyItMatters": "The record documents the difficulty of obtaining reliable supplier support for the University’s early network.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9342,8 +9412,8 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "The April 1997 newsletter article describes CHEST efforts to gather Year 2000 compliance assurances from suppliers.",
-    "whyItMatters": "Shows how Y2K risk management involved procurement and supplier-information networks.",
+    "summary": "CHEST contacted suppliers to confirm whether their software and equipment would continue to work correctly after the year 2000.",
+    "whyItMatters": "CHEST helped the University obtain information from suppliers while checking systems for Year 2000 problems.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9370,7 +9440,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The new computing laboratory was initially run by the Department of Astronomy.",
-    "whyItMatters": "This department is important because the first Computing Laboratory service emerged from astronomy-related computing needs.",
+    "whyItMatters": "The need for astronomical calculation was one of the main reasons the University established its first Computing Laboratory.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson"
@@ -9401,8 +9471,8 @@ const ITEMS = [
       "People",
       "Everyday Life in School"
     ],
-    "summary": "The chronological report notes that Doug Hamilton trained many staff in the arts in the use of technology for learning and communication, working across schools including management and ancient Greek.",
-    "whyItMatters": "Hamilton’s work illustrates the human support and training behind computing adoption outside Computer Science.",
+    "summary": "Doug Hamilton trained arts staff to use technology for learning and communication, working in areas including Management and Ancient Greek.",
+    "whyItMatters": "Hamilton helped staff in arts subjects use digital tools in teaching, learning and communication.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9432,7 +9502,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Cole describes early computing links with Dundee, including staff and students from St Andrews Colleges using the Dundee machine.",
-    "whyItMatters": "Dundee is useful as an external/local computing context before the St Andrews Computing Laboratory service began.",
+    "whyItMatters": "Before St Andrews had its own service, staff and students relied partly on computing facilities in Dundee.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9458,8 +9528,8 @@ const ITEMS = [
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "FaTMAN appears in the February 2009 connection diagram for University access to JANET and the Internet.",
-    "whyItMatters": "Shows regional network infrastructure in the University’s scientific web.",
+    "summary": "The February 2009 diagram shows FaTMAN connecting the University to JANET and the Internet.",
+    "whyItMatters": "FaTMAN formed part of the regional network that connected St Andrews to JANET and the Internet.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9487,8 +9557,8 @@ const ITEMS = [
       "People",
       "Everyday Life in School"
     ],
-    "summary": "“Previous PhD Students: Tom Dalton (2022): handling uncertainty in data linkage...”",
-    "whyItMatters": "Kirby helps link the teaching image to later research supervision and data-linkage work at St Andrews.",
+    "summary": "Graham Kirby supervised Tom Dalton’s 2022 PhD on handling uncertainty in data linkage.",
+    "whyItMatters": "Kirby’s record adds a later example of research supervision in data linkage at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9518,7 +9588,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "IBM supplied the IBM 1620 Model II system used for the first full-time Computing Laboratory service.",
-    "whyItMatters": "IBM is an external company node connected to the first computer used by the Computing Laboratory.",
+    "whyItMatters": "IBM supplied the 1620, the computer on which the University’s first full-time computing service was based.",
     "relatedPeople": [
       "item_007 Walter Stibbs"
     ],
@@ -9549,8 +9619,8 @@ const ITEMS = [
       "Build the School",
       "Research & Public Impact"
     ],
-    "summary": "Information Services / IT Services appears as the service unit behind classroom builds, mobile communications, BES, VPN, Confluence and Identity Management.",
-    "whyItMatters": "This marks a broader institutional shift from a computing laboratory toward a modern IT services model.",
+    "summary": "Information Technology Services managed computer classrooms, mobile communications, VPN, Confluence and Identity Management.",
+    "whyItMatters": "IT Services brought academic computing, administrative systems and user support into one University-wide service.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9585,7 +9655,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Chronological Report identifies International Computers Limited, now Fujitsu, as a notable industrial user context for PS-algol.",
-    "whyItMatters": "This matters because it documents the physical computing infrastructure that supported local computing service, teaching, research, or later digital work at St Andrews.",
+    "whyItMatters": "ICL’s use of PS-algol demonstrates that the language had applications beyond academic research.",
     "relatedPeople": [
       "item_052 Ron Morrison"
     ],
@@ -9606,15 +9676,15 @@ const ITEMS = [
     "publicDateNote": "Date unknown.",
     "dateNote": "",
     "title": "JANET",
-    "itemType": "software_system",
+    "itemType": "place_or_organisation",
     "themeTags": [
       "Equipment & Infrastructure",
       "Local to Global",
       "Places and Institutions",
       "Technology"
     ],
-    "summary": "JANET appears in the University connection to JANET and the Internet diagram.",
-    "whyItMatters": "Connects St Andrews’ scientific web to national academic networking.",
+    "summary": "The University network diagram shows JANET linking St Andrews with the Internet.",
+    "whyItMatters": "JANET connected St Andrews to the national academic network and the services available through it.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9646,7 +9716,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "The report image caption describes rows of personal computers situated in the Main Library to serve non-computer science students.",
-    "whyItMatters": "Represents public or non-specialist access to computing facilities.",
+    "whyItMatters": "The computer area gave students outside Computer Science access to digital facilities in a central University location.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9676,7 +9746,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "Management Information Services is identified in the report as the unit that merged with the Computing Laboratory to create Information Technology Services.",
-    "whyItMatters": "Useful for mapping the institutional restructuring behind IT Services.",
+    "whyItMatters": "Its merger with the Computing Laboratory helped create the broader IT Services organisation.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9702,7 +9772,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Miguel Nacenta delivered CS5042 User Centred Interaction Design, a compulsory element of the new MSc in Human Computer Interaction.",
-    "whyItMatters": "He is relevant to the School’s HCI teaching portfolio development.",
+    "whyItMatters": "Nacenta’s teaching supported the development of the School’s new MSc in Human–Computer Interaction.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9728,8 +9798,8 @@ const ITEMS = [
       "Firsts and Milestones",
       "People"
     ],
-    "summary": "“Murray Cole ... Personal Chair of Patterned Parallel Computing”",
-    "whyItMatters": "Murray Cole adds a family and technical layer to the Murray Polygon reference in the Jack Cole Building.",
+    "summary": "Murray Cole, Jack Cole’s son, held a Personal Chair in Patterned Parallel Computing at the University of Edinburgh.",
+    "whyItMatters": "His connection explains the name and personal background of the Murray Polygon displayed in the Jack Cole Building.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9761,7 +9831,7 @@ const ITEMS = [
       "Everyday Life in School"
     ],
     "summary": "An ALGOL 60 compiler used in the Computing Laboratory context was obtained from Nancy University.",
-    "whyItMatters": "Useful external node for early programming-language and software transfer.",
+    "whyItMatters": "The compiler from Nancy is an early example of software being shared between universities, even though it could not be made to work fully at St Andrews.",
     "relatedPeople": [
       "item_006 Tony Davie"
     ],
@@ -9788,8 +9858,8 @@ const ITEMS = [
       "People",
       "Everyday Life in School"
     ],
-    "summary": "Norman Paterson is identified in the Chronological Report caption for the John Honey Coffee area image as being in the front row and as a Scientific Officer in the School for many years.",
-    "whyItMatters": "Paterson may be useful for representing long-term staff roles and department community, but this entry currently depends on the image caption.",
+    "summary": "Norman Paterson appears in the front row of a photograph taken in the John Honey coffee area. He worked as a Scientific Officer in the School for many years.",
+    "whyItMatters": "Paterson’s long service as a Scientific Officer reflects the contribution of technical staff to the School over many years.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9817,8 +9887,8 @@ const ITEMS = [
       "Places and Institutions",
       "Everyday Life in School"
     ],
-    "summary": "The March 1980 newsletter invited users interested in the Cromemco System 3 and Digital MINC systems to contact Phillip Robertson.“Anyone wishing to use the systems or discuss their potential should contact Phllip Robertson.”",
-    "whyItMatters": "Robertson appears as a named point of contact for early microprocessor systems at the Computing Laboratory.",
+    "summary": "Phillip Robertson supported users interested in the Cromemco System 3 and Digital MINC systems.",
+    "whyItMatters": "Robertson helped users explore two early microprocessor systems available through the Computing Laboratory.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9844,8 +9914,8 @@ const ITEMS = [
       "People",
       "Everyday Life in School"
     ],
-    "summary": "“Tom is a third-year Computer Science Ph.D. student at the University of St Andrews, under the supervision of Prof. Alan Dearle and Dr. Graham Kirby.”",
-    "whyItMatters": "Dalton connects the report’s modern teaching-lab image to a later St Andrews Computer Science research trajectory in data linkage.",
+    "summary": "Tom Dalton studied Computer Science at St Andrews and later undertook a PhD under Alan Dearle and Graham Kirby.",
+    "whyItMatters": "Dalton’s record provides a recent example of doctoral research in data linkage at St Andrews.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9878,7 +9948,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "UKERNA advice is included in the November 1996 newsletter article about offensive e-mail and junk mail.",
-    "whyItMatters": "Places the local offensive e-mail incident within national academic-network guidance.",
+    "whyItMatters": "UKERNA’s advice helped the University respond to problems caused by offensive and unwanted email.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9906,7 +9976,7 @@ const ITEMS = [
       "Technology"
     ],
     "summary": "The Computing Laboratory was established within the University of St Andrews.",
-    "whyItMatters": "Acts as the parent institutional context for this part of the history.",
+    "whyItMatters": "The University supported the development of computing from an early central service into a School and wider IT infrastructure.",
     "relatedPeople": [
       "item_007 Walter Stibbs",
       "item_008 T. R. Carson",
@@ -9941,7 +10011,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "Jack McConnell was First Minister of Scotland and officially opened the Jack Cole Building in 2005.",
-    "whyItMatters": "His presence frames the Jack Cole Building opening as a public institutional milestone, not only a departmental event.",
+    "whyItMatters": "The First Minister’s involvement gave the opening of the Jack Cole Building recognition beyond the University.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9969,7 +10039,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Hamish Lawson was named as a Business Improvements staff/project contributor for the Research Expertise database project.",
-    "whyItMatters": "He is part of the administrative and technical work of digitising research expertise data.",
+    "whyItMatters": "Lawson contributed to the work of bringing information about University researchers and their expertise online.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -9995,7 +10065,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Jeremy Upton was named as one of the leads of the ePrints initiative in the University Library.",
-    "whyItMatters": "He connects the Research Expertise database to wider repository and publication infrastructure.",
+    "whyItMatters": "Upton helped develop online access to the University’s research publications.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10021,7 +10091,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Janet Aucock was named as one of the leads of the ePrints initiative in the University Library.",
-    "whyItMatters": "She connects research expertise management with repository development at the University Library.",
+    "whyItMatters": "Aucock helped the University Library develop its online repository for research outputs.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10047,7 +10117,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Guy Warner of the National e-Science Centre was named as a contributor on the European context of e-Science.",
-    "whyItMatters": "He represents external expertise brought into St Andrews discussions of e-Science and grids.",
+    "whyItMatters": "Warner brought experience of European grid computing into the University’s discussion of e-Science.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10073,7 +10143,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "William Kilbride of AHDS Archaeology was named as a contributor discussing e-Science from the perspective of arts subjects.",
-    "whyItMatters": "He represents the arts and humanities side of the e-Science discussion.",
+    "whyItMatters": "Kilbride explained how e-Science could support archaeology and other arts research, not only scientific work",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10098,7 +10168,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Simon Dobson is identified as Head of School in the Ursula Martin DLS report.",
-    "whyItMatters": "He provides School leadership context for the 2017 DLS and School memory event.",
+    "whyItMatters": "As Head of School, Dobson took part in an event that revisited the School’s computing history.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10123,7 +10193,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Ian Gent is identified as DLS Coordinator in the Ursula Martin DLS report.",
-    "whyItMatters": "He is relevant if the DLS is used as a School intellectual-history strand.",
+    "whyItMatters": "Gent’s role as coordinator reflects the work required to maintain the Distinguished Lecture Series over time.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10149,7 +10219,7 @@ const ITEMS = [
       "Places and Institutions"
     ],
     "summary": "Sally Mapstone is identified as Principal and Vice-Chancellor in the Ursula Martin DLS report.",
-    "whyItMatters": "She is contextual to a major public School event, though not a School-internal Computer Science figure.",
+    "whyItMatters": "The Principal’s participation gave the lecture wider recognition across the University.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10175,7 +10245,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Sarah Kennedy undertook digital modelling for the Finlaggan virtual reconstruction.",
-    "whyItMatters": "She is relevant to the School’s digital reconstruction and research impact work.",
+    "whyItMatters": "Kennedy’s digital modelling helped turn research on Finlaggan into a visual reconstruction.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10201,7 +10271,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "CJ Davies contributed to drone footage and photogrammetry work for the Finlaggan project team.",
-    "whyItMatters": "He is part of the School team behind a public-facing virtual reconstruction project.",
+    "whyItMatters": "Davies helped create the photographic and spatial data used to reconstruct Finlaggan digitally.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10227,7 +10297,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Iain Oliver contributed to the project team’s drone footage and photogrammetry work.",
-    "whyItMatters": "He is part of the School team behind the Finlaggan virtual reconstruction.",
+    "whyItMatters": "Oliver’s drone and photogrammetry work supported the detailed digital model of the site.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10253,7 +10323,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Catherine Anne Cassidy was part of the project team for drone footage and photogrammetry in the Finlaggan reconstruction.",
-    "whyItMatters": "She is part of the School team behind the Open Virtual Worlds public engagement work.",
+    "whyItMatters": "Cassidy contributed to the fieldwork used to create the Finlaggan reconstruction.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10279,7 +10349,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Anna Clements developed the Research Expertise database in her role as Database Officer at Research and Enterprise Services and was later named in connection with the online extension project.",
-    "whyItMatters": "She appears as a key developer of the Research Expertise database and its later online extension.",
+    "whyItMatters": "Clements led the development of a database that made information about University research and expertise easier to access.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -10305,7 +10375,7 @@ const ITEMS = [
       "People"
     ],
     "summary": "Dennis Jackson is named as the JANET-CERT source/author for the March 1996 newsletter warning about copyright material on information servers.",
-    "whyItMatters": "This connects St Andrews’ local web and copyright issue to broader UK academic-network security guidance.",
+    "whyItMatters": "Jackson’s guidance helped connect the University’s copyright problem with national advice for academic networks.",
     "relatedPeople": [],
     "relatedEquipment": [],
     "sources": [
@@ -12180,925 +12250,7 @@ const SOURCES = [
   }
 ];
 
-const MEDIA = [
-  {
-    "mediaId": "m_001",
-    "mediaTitle": "Professor D.W.N. Stibbs, Astronomy",
-    "mediaType": "image",
-    "localUrl": "image/Professor D.W.N. Stibbs, Astronomy.png",
-    "images": [
-      {
-        "localUrl": "image/Professor D.W.N. Stibbs, Astronomy.png",
-        "description": "portrait"
-      }
-    ],
-    "url": "https://collections.st-andrews.ac.uk/series/professor-dwn-stibbs-astronomy/582358",
-    "relatedSourceId": "src_007",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white portrait photograph of Professor D. W. N. Stibbs standing outside an observatory building.",
-    "copyrightNote": "© The University of St Andrews. CC BY-NC Creative Commons Attribution-NonCommercial 4.0 International Public License. Credit line: Courtesy of the University of St Andrews Libraries and Museums, ID: PGA-P745."
-  },
-  {
-    "mediaId": "m_002",
-    "mediaTitle": "Dr T.R. Carson, Astronomy",
-    "mediaType": "image",
-    "localUrl": "image/Dr T.R. Carson.png",
-    "images": [
-      {
-        "localUrl": "image/Dr T.R. Carson.png",
-        "description": "Portrait"
-      }
-    ],
-    "url": "https://collections.st-andrews.ac.uk/series/dr-tr-carson-astronomy/582315",
-    "relatedSourceId": "src_008",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white portrait photograph of Dr T. R. Carson.",
-    "copyrightNote": "© The University of St Andrews. CC BY-NC Creative Commons Attribution-NonCommercial 4.0 International Public License. Credit line: Courtesy of the University of St Andrews Libraries and Museums, ID: PGA-P692."
-  },
-  {
-    "mediaId": "m_003",
-    "mediaTitle": "Professor Jack Cole, 1988",
-    "mediaType": "image",
-    "localUrl": "image/jack cole.jpg",
-    "images": [
-      {
-        "localUrl": "image/jack cole.jpg",
-        "description": "Portrait"
-      }
-    ],
-    "url": "https://info.cs.st-andrews.ac.uk/student-handbook/school/jack-cole/",
-    "relatedSourceId": "src_047",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white portrait photograph of Professor Jack Cole.",
-    "copyrightNote": "the image is under CC BY-NC Creative Commons Attribution-NonCommercial 4.0 International Public License and that the copyright-holder is the University"
-  },
-  {
-    "mediaId": "m_004",
-    "mediaTitle": "IBM 1620 Model II in the Scott Lang Building",
-    "mediaType": "image",
-    "localUrl": "image/IBM 1620-1.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM 1620-1.jpg",
-        "description": "The IBM 1620 model II, installed in late 1964 in the Scott Lang building at the Observatory, The picture was taken by local photographer Alex Coupar on 2 June 1966. (Image: Alex Coupar see Dundee University Archives https://archives.dundee.ac.uk/ms-258)"
-      },
-      {
-        "localUrl": "image/IBM 1620-2.jpg",
-        "description": "Part of the IBM 1620 instruction summary – timings are in microseconds"
-      },
-      {
-        "localUrl": "image/IBM 1620-3.jpg",
-        "description": "Indirect addressing – a useful feature of the 1620, specified by a negative address (indicated by flag bit set on rightmost digit of field)"
-      },
-      {
-        "localUrl": "image/IBM 1620-4.jpg",
-        "description": "Representation of the IBM 1620 console showing display lights and switches"
-      },
-      {
-        "localUrl": "image/IBM 1620-5.jpg",
-        "description": "1The University's IBM 1620 Model II, as originally housed in the Observatory; the card reader/punch is in the centre and the line printer is to the far left; the three disk drives (and the main'core storage'memory unit) are outside the picture on the right"
-      }
-    ],
-    "url": "https://university-collections.wp.st-andrews.ac.uk/2022/10/10/the-beginning-of-the-service/",
-    "relatedSourceId": "src_005",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Colour photograph of the University’s IBM 1620 Model II as originally housed in the Observatory; Image appears in SRC002, SRC003, SRC005, and SRC006. These pages caption it as “The University’s IBM 1620 Model II, as originally housed in the Observatory...” and credit the photograph to Dr T. R. Carson. Use this media row for the IBM 1620 image showing the card reader/punch in the centre and the line printer to the far left.",
-    "copyrightNote": "Photograph courtesy of Dr T. R. Carson"
-  },
-  {
-    "mediaId": "m_005",
-    "mediaTitle": "IBM 1620 Model II with operator in the Scott Lang Building",
-    "mediaType": "image",
-    "localUrl": "image/IBM 1620-1.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM 1620-1.jpg",
-        "description": "The IBM 1620 model II, installed in late 1964 in the Scott Lang building at the Observatory, The picture was taken by local photographer Alex Coupar on 2 June 1966. (Image: Alex Coupar see Dundee University Archives https://archives.dundee.ac.uk/ms-258)"
-      }
-    ],
-    "url": "https://news.st-andrews.ac.uk/wp-content/uploads/2015-images/50-years-mainbody-1.jpg",
-    "relatedSourceId": "src_004",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white photograph of the IBM 1620 Model II installed in late 1964 in the Scott Lang Building at the Observatory, with a seated operator/user at the console. Building;Observatory;operator;computer room Usable for website: yes Quality: high Image appears in SRC004 as the top image “50-years-mainbody-1”, with photo credit to Alex Coupar. The same black-and-white IBM 1620 image also appears in SRC005, SRC006, and SRC009 with captions describing the IBM 1620 Model II installed in late 1964 in the Scott Lang Building at the Observatory; SRC005, SRC006, and SRC009 state that the picture was taken by Alex Coupar on 2 June 1966.",
-    "copyrightNote": "Photograph credited to Alex Coupar. SRC005, SRC006, and SRC009 point to Dundee University Archives MS 258."
-  },
-  {
-    "mediaId": "m_006",
-    "mediaTitle": "The VAX780, 1982",
-    "mediaType": "image",
-    "localUrl": "image/The VAX780, 1982.png",
-    "images": [
-      {
-        "localUrl": "image/The VAX780, 1982.png",
-        "description": "The VAX780, 1982"
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 7, first image. Black-and-white photograph captioned “The VAX780, 1982”.",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_007",
-    "mediaTitle": "John Honey Coffee area / goldfish bowl",
-    "mediaType": "image",
-    "localUrl": "image/The John Honey Coffee area (also known as the goldfish bowl).png",
-    "images": [
-      {
-        "localUrl": "image/The John Honey Coffee area (also known as the goldfish bowl).png",
-        "description": "The back row of 5 includes Ron Morrison, 2nd from left, and Tony Davie, furthest right. The front row of 4 includes Norman Paterson, furthest right, who was Scientific Officer in the School for many years."
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 9, first image. Black-and-white photograph captioned “the John Honey Coffee area, predecessor to the Jack Cole Coffee area. [DATE UNKNOWN]”.",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_008",
-    "mediaTitle": "W. van der Poel portrait",
-    "mediaType": "image",
-    "localUrl": "image/W. van der Poel.jpg",
-    "images": [
-      {
-        "localUrl": "image/W. van der Poel.jpg",
-        "description": "portrait"
-      }
-    ],
-    "url": "https://archive.cs.st-andrews.ac.uk/dls-archive/files/vanderpoel_picture.jpg",
-    "relatedSourceId": "src_010",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white image of W. van der Poel associated with the 1969 Algol '68 DLS entry.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_009",
-    "mediaTitle": "Punched card from a 1620 SPS program",
-    "mediaType": "image",
-    "localUrl": "image/SPS.jpg",
-    "images": [
-      {
-        "localUrl": "image/SPS.jpg",
-        "description": "Punched card from a 1620 assembler language (SPS) program"
-      }
-    ],
-    "url": "https://university-collections.wp.st-andrews.ac.uk/2022/11/03/a-note-on-the-early-days-of-computing-in-and-related-to-st-andrews-university-part-ii/",
-    "relatedSourceId": "src_009",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image of a punched card from a 1620 assembler language, SPS, program.",
-    "copyrightNote": "Image appears on SRC009 as the second content image. Caption: “Punched card from a 1620 assembler language (SPS) program.”"
-  },
-  {
-    "mediaId": "m_010",
-    "mediaTitle": "Last day of the IBM 360/44",
-    "mediaType": "image",
-    "localUrl": "image/IBM-360_44.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM-360_44.jpg",
-        "description": "The last day of the IBM 360/44, 30 June 1980, with Director of the Computing Laboratory, Dr Robin Erskine"
-      }
-    ],
-    "url": "https://university-collections.wp.st-andrews.ac.uk/2022/11/03/a-note-on-the-early-days-of-computing-in-and-related-to-st-andrews-university-part-ii/",
-    "relatedSourceId": "src_009",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image of the last day of the IBM 360/44, with Director of the Computing Laboratory, Dr Robin Erskine.",
-    "copyrightNote": "Image appears on SRC009 as the third content image. Caption: “The last day of the IBM 360/44, 30 June 1980, with Director of the Computing Laboratory, Dr Robin Erskine.”"
-  },
-  {
-    "mediaId": "m_011",
-    "mediaTitle": "IBM 360/44 in Mathematics Institute computer room",
-    "mediaType": "image",
-    "localUrl": "image/IBM30-44-2.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM30-44-2.jpg",
-        "description": ""
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2005/02/historical360.html",
-    "relatedSourceId": "src_013",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Black-and-white photograph of the IBM 360/44 system in the Mathematics Institute computer room.",
-    "copyrightNote": "The source page credits the photograph to Roger Stapleton."
-  },
-  {
-    "mediaId": "m_012",
-    "mediaTitle": "Rows of personal computers in the Main Library",
-    "mediaType": "image",
-    "localUrl": "image/Rows of personal computers in the Main Library.png",
-    "images": [
-      {
-        "localUrl": "image/Rows of personal computers in the Main Library.png",
-        "description": "Rows of personal computers, situated in the main library to serve non-computer science students"
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 11, first image. Black-and-white photograph captioned “Rows of personal computers, situated in the Main Library to serve non-computer science students. [DATE UNKNOWN]”.",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_013",
-    "mediaTitle": "Department LAN network diagram, 1988",
-    "mediaType": "image",
-    "localUrl": "image/The department LAN network.png",
-    "images": [
-      {
-        "localUrl": "image/The department LAN network.png",
-        "description": "The department LAN network"
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 12, first image. Colour diagram captioned “The department LAN network, 1988”.",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_014",
-    "mediaTitle": "Students in the Jack Cole Building using modern computing equipment",
-    "mediaType": "image",
-    "localUrl": "image/Students in the Jack Cole Building using modern computing equipment.png",
-    "images": [
-      {
-        "localUrl": "image/Students in the Jack Cole Building using modern computing equipment.png",
-        "description": "The closest student in the white t-shirt is Tom Dalton who started their undergraduate course in 2011 and then went on to do his PhD with Prof. Graham Kirby. This looks like a CS1002 class"
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 16, first image. Colour photograph captioned “Students in the Jack Cole Building using modern computing equipment, 2011.”",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_015",
-    "mediaTitle": "Jack Cole Building under construction",
-    "mediaType": "image",
-    "localUrl": "image/Jack Cole Building under construction.png",
-    "images": [
-      {
-        "localUrl": "image/Jack Cole Building under construction.png",
-        "description": "Jack Cole Building under construction"
-      }
-    ],
-    "url": "No direct media URL",
-    "relatedSourceId": "src_001",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "From Chronological Report, p. 17, first image. Colour photograph captioned “Jack Cole Building under construction, 2004.”",
-    "copyrightNote": "No public original image URL has been identified yet."
-  },
-  {
-    "mediaId": "m_016",
-    "mediaTitle": "Plaque commemorating the opening of the Jack Cole Building",
-    "mediaType": "photograph",
-    "localUrl": "image/Plaque commemorating the opening of the Jack Cole Building.jpg",
-    "images": [
-      {
-        "localUrl": "image/Plaque commemorating the opening of the Jack Cole Building.jpg",
-        "description": "Plaque commemorating the opening of the Jack Cole Building"
-      }
-    ],
-    "url": "https://info.cs.st-andrews.ac.uk/student-handbook/images/jack-cole/opening/02.jpg",
-    "relatedSourceId": "src_036",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Colour photograph of the Jack Cole Building opening plaque. The Chronological Report p. 18 caption identifies Professor Ursula Martin, First Minister Jack McConnell and Head of School Professor Ron Morrison; one person is marked unknown.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_017",
-    "mediaTitle": "Research Expertise Database: Input and Output",
-    "mediaType": "diagram",
-    "localUrl": "image/Research Expertise Database Input and Output.jpg",
-    "images": [
-      {
-        "localUrl": "image/Research Expertise Database Input and Output.jpg",
-        "description": "Research Expertise Database Input and Output"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2005/05/resexp.jpg",
-    "relatedSourceId": "src_040",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Diagram showing inputs to and outputs from the Research Expertise Database, including administration, researcher and school/department interfaces, Arts Server, ePrints, RAE, CVs, brochures and web pages.",
-    "copyrightNote": "Archived IT Services Newsletter image;"
-  },
-  {
-    "mediaId": "m_018",
-    "mediaTitle": "University connection to JANET and the Internet diagram",
-    "mediaType": "diagram",
-    "localUrl": "image/The University’s connection to JANET and the Internet.png",
-    "images": [
-      {
-        "localUrl": "image/The University’s connection to JANET and the Internet.png",
-        "description": "The University's connection to JANET and the Internet"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2009/02/200902.pdf",
-    "relatedSourceId": "src_033",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Network/connectivity diagram in the February 2009 Information Services Newsletter illustrating the University’s connection to JANET and the Internet through FaTMAN / regional network infrastructure. pp. 4–5",
-    "copyrightNote": "Archived Information Services Newsletter PDF"
-  },
-  {
-    "mediaId": "m_019",
-    "mediaTitle": "Identity Management project diagram",
-    "mediaType": "diagram",
-    "localUrl": "image/Identity Management project diagram.png",
-    "images": [
-      {
-        "localUrl": "image/Identity Management project diagram.png",
-        "description": "Identity Management connections among systems such as Data Warehouse, LDAP, SITS, CHARM, eVision, Shibboleth, CAS, Active Directory, Library, access control and related services"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2011/02/201102.pdf",
-    "relatedSourceId": "src_032",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Diagram in the February 2011 Information Services Newsletter showing Identity Management connections among systems such as Data Warehouse, LDAP, SITS, CHARM, eVision, Shibboleth, CAS, Active Directory, Library, access control and related services. pp. 4–5",
-    "copyrightNote": "Archived Information Services Newsletter PDF"
-  },
-  {
-    "mediaId": "m_020",
-    "mediaTitle": "Ron Morrison at Morrison Suite",
-    "mediaType": "image",
-    "localUrl": "image/Ron Morrison at Morrison Suite.jpg",
-    "images": [
-      {
-        "localUrl": "image/Ron Morrison at Morrison Suite.jpg",
-        "description": "Ron Morrison"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2014/02/Ron-300x225.jpg",
-    "relatedSourceId": "src_051",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the Morrison Suite blog post. It shows Ron Morrison at or beside the Morrison Suite sign.",
-    "copyrightNote": "Likely copyright University of St Andrews / School of Computer Science."
-  },
-  {
-    "mediaId": "m_021",
-    "mediaTitle": "User Centred Interaction Design / MSc HCI teaching image",
-    "mediaType": "image",
-    "localUrl": "image/MSc HCI teaching image.png",
-    "images": [
-      {
-        "localUrl": "image/MSc HCI teaching image.png",
-        "description": "Shows students or teaching activity related to User Centred Interaction Design / prototyping"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2014/03/UCI-300x225.png",
-    "relatedSourceId": "src_052",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the MSc in Human Computer Interaction post. It shows students or teaching activity related to User Centred Interaction Design / prototyping in the Morrison Suite context.",
-    "copyrightNote": "Likely copyright University of St Andrews / School of Computer Science."
-  },
-  {
-    "mediaId": "m_022",
-    "mediaTitle": "Interaction Lab opening image",
-    "mediaType": "image",
-    "localUrl": "image/Interaction Lab opening.png",
-    "images": [
-      {
-        "localUrl": "image/Interaction Lab opening.png",
-        "description": "Interaction Lab opening"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2015/09/int2-300x225.png",
-    "relatedSourceId": "src_053",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the official Interaction Lab opening post. It is part of the event image set for the opening of the Interaction Lab.",
-    "copyrightNote": "Likely copyright University of St Andrews / School of Computer Science."
-  },
-  {
-    "mediaId": "m_023",
-    "mediaTitle": "Ursula Martin DLS 2017 image",
-    "mediaType": "image",
-    "localUrl": "image/Ursula Martin DLS 2017.png",
-    "images": [
-      {
-        "localUrl": "image/Ursula Martin DLS 2017.png",
-        "description": "Ursula Martin"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2017/10/dls1-300x225.png",
-    "relatedSourceId": "src_054",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the Ursula Martin DLS 2017 post. It shows Ursula Martin in the DLS event context with School / University representatives.",
-    "copyrightNote": "Likely copyright University of St Andrews / School of Computer Science."
-  },
-  {
-    "mediaId": "m_024",
-    "mediaTitle": "Finlaggan virtual reconstruction image",
-    "mediaType": "image",
-    "localUrl": "image/Finlaggan.png",
-    "images": [
-      {
-        "localUrl": "image/Finlaggan.png",
-        "description": "Finlaggan virtual reconstruction image"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2019/05/General-View-of-Islands-1024x541.png",
-    "relatedSourceId": "src_056",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the Finlaggan virtual reconstruction post. It shows a visual reconstruction / view associated with the Open Virtual Worlds project.",
-    "copyrightNote": "Likely copyright University of St Andrews / Open Virtual Worlds / project contributors."
-  },
-  {
-    "mediaId": "m_025",
-    "mediaTitle": "Jack Cole Building 20th anniversary image",
-    "mediaType": "image",
-    "localUrl": "image/Jack Cole Building 20th anniversary.jpg",
-    "images": [
-      {
-        "localUrl": "image/Jack Cole Building 20th anniversary.jpg",
-        "description": "Jack Cole Building 20th anniversary"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2025/03/IMG_0992-300x234.jpg",
-    "relatedSourceId": "src_057",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Image from the 2025 Jack Cole Building anniversary post. It visually documents the 20th anniversary celebration context.",
-    "copyrightNote": "Likely copyright University of St Andrews / School of Computer Science."
-  },
-  {
-    "mediaId": "m_026",
-    "mediaTitle": "Jack Cole Building image on School About page",
-    "mediaType": "source_page_image",
-    "localUrl": "image/jack-cole-building.jpg",
-    "images": [
-      {
-        "localUrl": "image/jack-cole-building.jpg",
-        "description": "Jack Cole Building"
-      }
-    ],
-    "url": "https://www.st-andrews.ac.uk/computer-science/about/",
-    "relatedSourceId": "src_048",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "Source page image from src_048. No direct media URL identified.",
-    "copyrightNote": "Copyright belongs to the University of St Andrews."
-  },
-  {
-    "mediaId": "m_034",
-    "mediaTitle": "DEC GT40 terminal with FOCAL program",
-    "mediaType": "image",
-    "localUrl": "image/DEC_GT40_terminal_with_FOCAL_program.png",
-    "images": [
-      {
-        "localUrl": "image/DEC_GT40_terminal_with_FOCAL_program.png",
-        "description": "DEC_GT40_terminal_with_FOCAL_program"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:DEC_GT40_terminal_with_FOCAL_program,_2.png",
-    "relatedSourceId": "src_058",
-    "simplifiedCopyright": "Morn, Screenshot of an emulated DEC GT40 terminal, 28 January 2021. Licensed under CC0 1.0 Universal, via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_036",
-    "mediaTitle": "Cromemco System Three computer",
-    "mediaType": "image",
-    "localUrl": "image/Cromemco_System_Three.jpg",
-    "images": [
-      {
-        "localUrl": "image/Cromemco_System_Three.jpg",
-        "description": "Cromemco_System_Three"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:Cromemco_System_Three_(1979).jpg",
-    "relatedSourceId": "src_016",
-    "simplifiedCopyright": "Cromemco, Cromemco System Three Computer in 1979, 1979. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_037",
-    "mediaTitle": "Digital MINC computer",
-    "mediaType": "image",
-    "localUrl": "image/Digital MINC computer.png",
-    "images": [
-      {
-        "localUrl": "image/Digital MINC computer.png",
-        "description": "This is MINC – the Modular Instrument Computer; a special PDP-11 system with modules for analog and digital I/O and timing for use in a laboratory"
-      }
-    ],
-    "url": "https://pdp2011.sytse.net/wordpress/pdp-11/minc/",
-    "relatedSourceId": "src_016",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_038",
-    "mediaTitle": "DEC VK100 terminal",
-    "mediaType": "image",
-    "localUrl": "image/DEC_VK100.jpg",
-    "images": [
-      {
-        "localUrl": "image/DEC_VK100.jpg",
-        "description": "DEC_VK100"
-      }
-    ],
-    "url": "https://terminals-wiki.org/wiki/index.php/DEC_VK100",
-    "relatedSourceId": "src_049",
-    "simplifiedCopyright": "Copyright status not specified,Image sourced from eBay item no. 221638651686, sold by twenex, via Terminals Wiki.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_039",
-    "mediaTitle": "ICL PERQ workstation",
-    "mediaType": "image",
-    "localUrl": "image/ICL PERQ workstation.jpg",
-    "images": [
-      {
-        "localUrl": "image/ICL PERQ workstation.jpg",
-        "description": "ICL PERQ workstation"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:ICL_PERQ_1_workstation_Edinburgh_University.jpg",
-    "relatedSourceId": "src_066",
-    "simplifiedCopyright": "J. Gordon Hughes, Two ICL PERQ 1 workstation computers, early 1980s. Licensed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_040",
-    "mediaTitle": "BBC Micro computer",
-    "mediaType": "image",
-    "localUrl": "image/BBC_Micro_Computer.jpg",
-    "images": [
-      {
-        "localUrl": "image/BBC_Micro_Computer.jpg",
-        "description": "BBC_Micro_Computer"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:BBC_Micro_Front_Restored.jpg",
-    "relatedSourceId": "src_067",
-    "simplifiedCopyright": "Stuart Brady, BBC Micro, retouched by Ubcule, 3 October 2010. Public domain, via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_041",
-    "mediaTitle": "NEC Spinwriter printer",
-    "mediaType": "image",
-    "localUrl": "image/NEC Spinwriter printer.jpg",
-    "images": [
-      {
-        "localUrl": "image/NEC Spinwriter printer.jpg",
-        "description": "NEC Spinwriter printer"
-      }
-    ],
-    "url": "https://americanhistory.si.edu/collections/object/nmah_212780",
-    "relatedSourceId": "src_068",
-    "simplifiedCopyright": "Smithsonian Institution, National Museum of American History, NEC Spinwriter Printer 5515. CC0 1.0 Universal, via Smithsonian Open Access.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_043",
-    "mediaTitle": "DEC TU78 magnetic tape drive",
-    "mediaType": "image",
-    "localUrl": "image/DEC-TU78.jpg",
-    "images": [
-      {
-        "localUrl": "image/DEC-TU78.jpg",
-        "description": "The TU78 was an advanced big magnetic tape drive from DEC, which used 2400-inch 0.5-inch wide magnetic tape on a standard 10-1/2-inch reel"
-      }
-    ],
-    "url": "https://www.storagenewsletter.com/2019/04/22/history-1980-1981-dec-tu78/",
-    "relatedSourceId": "src_070",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_044",
-    "mediaTitle": "IBM PC XT",
-    "mediaType": "image",
-    "localUrl": "image/IBM_PC_XT.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM_PC_XT.jpg",
-        "description": "IBM_PC_XT"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:IBM_PC_XT_color.jpg",
-    "relatedSourceId": "src_070",
-    "simplifiedCopyright": "Ruben de Rijcke, IBM PC XT with IBM 5151 monitor and 10MB hard disk drive, 30 May 2007. Licensed under Creative Commons Attribution 3.0 Unported (CC BY 3.0), via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_045",
-    "mediaTitle": "Apple LaserWriter Plus for Apple Desktop Publishing System",
-    "mediaType": "image",
-    "localUrl": "image/Apple_LaserWriter.jpg",
-    "images": [
-      {
-        "localUrl": "image/Apple_LaserWriter.jpg",
-        "description": "Apple_LaserWriter"
-      }
-    ],
-    "url": "https://apple.fandom.com/wiki/LaserWriter_Plus",
-    "relatedSourceId": "src_017",
-    "simplifiedCopyright": "Apple, LaserWriter. Public domain, via Wikimedia Commons; file credited to Apple and Cfazzzio.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_046",
-    "mediaTitle": "Zenith Z-159 personal computer",
-    "mediaType": "image",
-    "localUrl": "image/Zenith Z-159 personal computer.png",
-    "images": [
-      {
-        "localUrl": "image/Zenith Z-159 personal computer.png",
-        "description": "Zenith Z-159 personal computer"
-      }
-    ],
-    "url": "https://classic.technology/wp-content/uploads/2024/08/zenith-z159.pdf",
-    "relatedSourceId": "src_018",
-    "simplifiedCopyright": "© 1989 Zenith Data Systems Corporation; source: Zenith Z-159 brochure via Classic Computer Brochures.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_049",
-    "mediaTitle": "Amstrad PC1512 personal computer",
-    "mediaType": "image",
-    "localUrl": "image/Amstrad_PC1512.jpg",
-    "images": [
-      {
-        "localUrl": "image/Amstrad_PC1512.jpg",
-        "description": "Amstrad_PC1512"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:Amstrad_PC1512.jpg",
-    "relatedSourceId": "src_072",
-    "simplifiedCopyright": "Marcin Wichary, Amstrad PC1512, 17 August 2006. Licensed under Creative Commons Attribution 2.0 Generic (CC BY 2.0), originally published on Flickr, via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_050",
-    "mediaTitle": "IBM PS/2 Model 30 for IBM PC range demonstration",
-    "mediaType": "image",
-    "localUrl": "image/IBM_PS2_(R)_model_30.jpg",
-    "images": [
-      {
-        "localUrl": "image/IBM_PS2_(R)_model_30.jpg",
-        "description": "IBM_PS2_(R)_model_30"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:IBM_PS2_%28R%29_model_30.jpg",
-    "relatedSourceId": "src_073",
-    "simplifiedCopyright": "Museo de Informática, Museo de Informática, 17 June 2011. Licensed under Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0), originally published on Flickr, via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_051",
-    "mediaTitle": "Acorn Archimedes 300 series",
-    "mediaType": "image",
-    "localUrl": "image/600px-A310.jpg",
-    "images": [
-      {
-        "localUrl": "image/600px-A310.jpg",
-        "description": "600px-A310"
-      }
-    ],
-    "url": "https://arcwiki.org.uk/index.php/Archimedes_300_series",
-    "relatedSourceId": "src_073",
-    "simplifiedCopyright": "Copyright status not specified,Original promotional image by Acorn Computers Limited, via ArcWiki.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_052",
-    "mediaTitle": "DEC MicroVAX II computer",
-    "mediaType": "image",
-    "localUrl": "image/MicroVAX_II.jpg",
-    "images": [
-      {
-        "localUrl": "image/MicroVAX_II.jpg",
-        "description": "MicroVAX_II"
-      }
-    ],
-    "url": "https://en.wikipedia.org/wiki/MicroVAX",
-    "relatedSourceId": "src_075",
-    "simplifiedCopyright": "Darklanlan, MicroVAX II front, 29 May 2024. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0), via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_053",
-    "mediaTitle": "Apple Macintosh Plus for AppleTalk cluster",
-    "mediaType": "image",
-    "localUrl": "image/Apple_Macintosh_Plus.jpg",
-    "images": [
-      {
-        "localUrl": "image/Apple_Macintosh_Plus.jpg",
-        "description": "Apple_Macintosh_Plus"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:Apple_Macintosh_Plus.jpg",
-    "relatedSourceId": "src_075",
-    "simplifiedCopyright": "Felix Winkelnkemper, Apple Macintosh Plus with an attached hard drive, 27 March 2019. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), via Wikimedia Commons.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_057",
-    "mediaTitle": "Apple LaserWriter II for Scotsys Macintosh demonstration",
-    "mediaType": "image",
-    "localUrl": "image/Apple_Laserwriter_II.jpg",
-    "images": [
-      {
-        "localUrl": "image/Apple_Laserwriter_II.jpg",
-        "description": "Apple_Laserwriter_II"
-      }
-    ],
-    "url": "https://commons.wikimedia.org/wiki/File:Apple_Laserwriter_II.jpg",
-    "relatedSourceId": "src_079",
-    "simplifiedCopyright": "All About Apple Museum, Apple LaserWriter II. Licensed under Creative Commons Attribution-ShareAlike 2.5 Italy (CC BY-SA 2.5 IT), via Wikimedia Commons. Attribution: All About Apple Museum.",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_060",
-    "mediaTitle": "Sun Ultra 1 Creator",
-    "mediaType": "image",
-    "localUrl": "image/Sun Ultra 1 Creator .jpg",
-    "images": [
-      {
-        "localUrl": "image/Sun Ultra 1 Creator .jpg",
-        "description": "Sun Ultra 1 Creator"
-      }
-    ],
-    "url": "https://www.computinghistory.org.uk/det/11392/Sun-Ultra-1-Creator/",
-    "relatedSourceId": "src_091",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "External image.",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_062",
-    "mediaTitle": "Treasures from Special Collections exhibition display image",
-    "mediaType": "image",
-    "localUrl": "image/exhibition.jpg",
-    "images": [
-      {
-        "localUrl": "image/exhibition.jpg",
-        "description": "Treasures from Special Collections exhibition display image"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2007/10/speccollexhn.html",
-    "relatedSourceId": "src_138",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_065",
-    "mediaTitle": "Palimpsest project image from British Library Labs recognition post",
-    "mediaType": "image",
-    "localUrl": "image/Litlong.png",
-    "images": [
-      {
-        "localUrl": "image/Litlong.png",
-        "description": "Litlong"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2015/11/pset-1024x558.png",
-    "relatedSourceId": "src_173",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_067",
-    "mediaTitle": "Open Virtual Worlds fieldwork with Timespan Museum image",
-    "mediaType": "image",
-    "localUrl": "image/Open vitual word.jpg",
-    "images": [
-      {
-        "localUrl": "image/Open vitual word.jpg",
-        "description": "Open vitual word"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2025/08/4.2-300x225.jpg",
-    "relatedSourceId": "src_184",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_068",
-    "mediaTitle": "Digital Heritage 2025 conference image",
-    "mediaType": "image",
-    "localUrl": "image/Digital Heritage 2025 conference.jpeg",
-    "images": [
-      {
-        "localUrl": "image/Digital Heritage 2025 conference.jpeg",
-        "description": "Digital Heritage 2025 conference"
-      }
-    ],
-    "url": "https://blogs.cs.st-andrews.ac.uk/csblog/files/2025/09/processed-085DDBB0-A8BE-443E-9315-E3AB9BB732B6-200x300.jpeg",
-    "relatedSourceId": "src_185",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_069",
-    "mediaTitle": "Faculty of Science papers, UYUY4235",
-    "mediaType": "image",
-    "localUrl": "image/observatory.jpg",
-    "images": [
-      {
-        "localUrl": "image/observatory.jpg",
-        "description": "observatory"
-      }
-    ],
-    "url": "https://university-collections.wp.st-andrews.ac.uk/2022/09/26/the-role-of-astronomy-in-the-establishment-of-the-university-computing-laboratory-in-st-andrews/",
-    "relatedSourceId": "src_002",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_070",
-    "mediaTitle": "ONLINE RETRIEVAL IN THE UNIVERSITY LIBRARY",
-    "mediaType": "image",
-    "localUrl": "image/ON-LINE RETRIEVAL IN THE UNIVERSITY LIBRARY .png",
-    "images": [
-      {
-        "localUrl": "image/ON-LINE RETRIEVAL IN THE UNIVERSITY LIBRARY .png",
-        "description": "Online retrieval in the university"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/PDFscanOCR/1978/ocr197802.pdf",
-    "relatedSourceId": "src_061",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_071",
-    "mediaTitle": "Humbul Gateway",
-    "mediaType": "image",
-    "localUrl": "image/Humbul Gateway.jpg",
-    "images": [
-      {
-        "localUrl": "image/Humbul Gateway.jpg",
-        "description": "Humbul Gateway"
-      }
-    ],
-    "url": "https://users.ox.ac.uk/~mikef/rts/future/slide4.html",
-    "relatedSourceId": "src_072",
-    "simplifiedCopyright": "Copyright status not specified;University of Oxford. Early screenshot of Humbul, reproduced from “Future of the Humanities: Humbul: screen one”",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_072",
-    "mediaTitle": "Ursula-Martin",
-    "mediaType": "image",
-    "localUrl": "image/Ursula-Martin.jpg",
-    "images": [
-      {
-        "localUrl": "image/Ursula-Martin.jpg",
-        "description": "Portait"
-      }
-    ],
-    "url": "https://www.malvernstjames.co.uk/ma100/professor-ursula-martin/",
-    "relatedSourceId": "src_050;src_05",
-    "simplifiedCopyright": "Copyright status not specified",
-    "imageNote": "",
-    "copyrightNote": ""
-  },
-  {
-    "mediaId": "m_073",
-    "mediaTitle": "rps",
-    "mediaType": "image",
-    "localUrl": "image/rps.jpg",
-    "images": [
-      {
-        "localUrl": "image/rps.jpg",
-        "description": "The Records of the Parliaments of Scotland online"
-      }
-    ],
-    "url": "https://archive.st-andrews.ac.uk/other/newsletter/itspecial/newsletter/2008/03/rps.html",
-    "relatedSourceId": "src_143",
-    "simplifiedCopyright": "Images from The University of St Andrews",
-    "imageNote": "",
-    "copyrightNote": ""
-  }
-];
+const MEDIA = [];
 
 const ITEM_BY_ID = Object.fromEntries(ITEMS.map((entry) => [entry.id, entry]));
 const SOURCE_BY_ID = Object.fromEntries(SOURCES.map((entry) => [entry.sourceId, entry]));
