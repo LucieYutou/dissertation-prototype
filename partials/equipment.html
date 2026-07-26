@@ -1,0 +1,50 @@
+<section id="equipment" class="equipment-section page-section">
+  <section class="equipment-hero">
+    <div class="equipment-hero-inner">
+      <h1>Key Equipment</h1>
+
+      <p>
+      Explore the image wall to see how different equipment supported teaching, research and everyday computing at St Andrews.
+      </p>
+
+      <button class="equipment-start js-equipment-start" type="button">
+        Explore equipment
+        <span>↓</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="equipment-gallery-section" id="equipment-gallery">
+    <div class="equipment-gallery-heading">
+      <h2>Equipment Records</h2>
+      <p>
+        Search equipment by name or browse records by category.
+      </p>
+    </div>
+
+    <div class="equipment-controls">
+      <label class="equipment-search-label">
+        Search equipment
+        <input
+          class="equipment-search js-equipment-search"
+          type="search"
+          placeholder="Search by name"
+          autocomplete="off"
+        >
+      </label>
+
+      <div class="equipment-filter-group" aria-label="Filter equipment by category">
+        <button class="equipment-filter is-active js-equipment-filter" type="button" data-category="All">All</button>
+        <button class="equipment-filter js-equipment-filter" type="button" data-category="Computers & processors">Computers & processors</button>
+        <button class="equipment-filter js-equipment-filter" type="button" data-category="Terminals & access">Terminals & access</button>
+        <button class="equipment-filter js-equipment-filter" type="button" data-category="Printing & graphics">Printing & graphics</button>
+        <button class="equipment-filter js-equipment-filter" type="button" data-category="Networks & communication">Networks & communication</button>
+        <button class="equipment-filter js-equipment-filter" type="button" data-category="Software & systems">Software & systems</button>
+      </div>
+
+      <p class="equipment-count js-equipment-count"></p>
+    </div>
+
+    <div class="equipment-grid js-equipment-grid" aria-live="polite"></div>
+  </section>
+</section>
