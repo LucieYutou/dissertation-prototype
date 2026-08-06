@@ -1,5 +1,5 @@
-// This dataset is created from the People CSV files for use on the People page.
-// Change the CSV files and run the converter again when the data needs updating.
+// This file is generated from the People CSV files.
+// Make changes in the CSV files and run the converter again.
 
 const PEOPLE_ROWS = [
   {

@@ -1,5 +1,5 @@
-// This file brings together the item, source and media data created from the CSV files.
-// Run the converter again after changing any of those CSV files.
+// This file is generated from the CSV datasets.
+// Make changes in the CSV files and run the converter again.
 
 const ITEMS = [
   {
