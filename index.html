@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computing at St Andrews</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- This header contains the main navigation -->
+  <header class="site-header">
+    <button class="site-title js-section-link" data-target="home">
+      Computing at St Andrews
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link active js-section-link" data-target="home">
+        Home
+      </button>
+
+      <button class="nav-link js-section-link" data-target="build-school">
+        Build the School
+      </button>
+
+      <button class="nav-link js-section-link" data-target="timeline">
+        Explore Timeline
+      </button>
+
+      <button class="nav-link js-section-link" data-target="humanities">
+        Humanities Story
+      </button>
+
+      <button class="nav-link js-section-link" data-target="equipment">
+        Key Equipment
+      </button>
+
+      <button class="nav-link js-section-link" data-target="people">
+        People
+      </button>
+    </nav>
+  </header>
+
+  <!-- The page sections are loaded here -->
+  <main id="page-sections"></main>
+
+  <!-- The record drawer is inserted here. -->
+  <template id="drawer-slot"></template>
+
+  <!-- Load the historical records and People datasets -->
+  <script src="js/data.js"></script>
+  <script src="js/data_people.js"></script>
+
+  <!-- External libraries support the charts and geographic visualisations -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+
+  <!-- Load the page content and start the prototype. -->
+  <script src="js/drawer.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/build-school.js"></script>
+  <script src="js/timeline.js"></script>
+  <script src="js/humanity.js"></script>
+  <script src="js/equipment.js"></script>
+  <script src="js/people.js"></script>
+  <script src="js/app-loader.js"></script>
+</body>
+</html>
